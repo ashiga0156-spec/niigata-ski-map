@@ -1,0 +1,78 @@
+:root {
+  --navy: #0f2a43;
+  --ski: #1f7ae0;
+  --sake: #d98a1f;
+  --access: #2f9e6b;
+  --bar-h: 92px;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1b2430;
+  display: flex;
+  flex-direction: column;
+}
+.bar {
+  background: var(--navy);
+  color: #fff;
+  padding: calc(env(safe-area-inset-top) + 8px) 12px 8px;
+  z-index: 1000;
+}
+.title { font-weight: 700; font-size: 17px; margin-bottom: 8px; }
+.filters { display: flex; gap: 8px; overflow-x: auto; }
+.chip {
+  border: 1px solid rgba(255,255,255,.5);
+  background: transparent;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.chip[aria-pressed="true"] { background: #fff; color: var(--navy); font-weight: 600; }
+#map { flex: 1; min-height: 0; }
+.fab {
+  position: fixed;
+  right: 14px;
+  bottom: calc(env(safe-area-inset-bottom) + 44px);
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  border: 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,.3);
+  font-size: 22px;
+  z-index: 1000;
+}
+.credit {
+  font-size: 11px;
+  padding: 6px 10px calc(env(safe-area-inset-bottom) + 6px);
+  background: #f4f6f8;
+  color: #555;
+}
+.credit a { color: inherit; }
+
+.pin {
+  width: 26px; height: 26px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
+.pin.ski { background: var(--ski); }
+.pin.sake { background: var(--sake); }
+.pin.access { background: var(--access); }
+
+.popup h3 { margin: 0 0 2px; font-size: 15px; }
+.popup .ja { color: #666; font-size: 12px; margin-bottom: 6px; }
+.popup p { margin: 0 0 8px; font-size: 13px; line-height: 1.45; }
+.popup .links { display: flex; flex-wrap: wrap; gap: 6px; }
+.popup .links a {
+  background: var(--navy);
+  color: #fff !important;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+.popup .warn { color: #a15c00; font-size: 11px; margin-top: 6px; }

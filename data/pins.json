@@ -1,0 +1,68 @@
+[
+  {
+    "id": "echigo-yuzawa-station",
+    "name": "Echigo-Yuzawa Station",
+    "name_ja": "越後湯沢駅",
+    "category": "access",
+    "lat": 36.9368,
+    "lng": 138.8100,
+    "desc": "Shinkansen gateway from Tokyo to the Yuzawa ski area. Sake tasting is available inside the station (Ponshukan).",
+    "links": [],
+    "verified": false
+  },
+  {
+    "id": "gala-yuzawa",
+    "name": "GALA Yuzawa Snow Resort",
+    "name_ja": "GALA湯沢スキー場",
+    "category": "ski",
+    "lat": 36.9120,
+    "lng": 138.8000,
+    "desc": "Ski resort with its own Shinkansen station on the Joetsu line in winter, so it works as a day trip from Tokyo.",
+    "links": [{ "label": "Official site", "url": "https://gala.co.jp/" }],
+    "verified": false
+  },
+  {
+    "id": "naeba",
+    "name": "Naeba Ski Resort",
+    "name_ja": "苗場スキー場",
+    "category": "ski",
+    "lat": 36.8500,
+    "lng": 138.7850,
+    "desc": "Large resort in the Yuzawa area, popular with international visitors.",
+    "links": [],
+    "verified": false
+  },
+  {
+    "id": "akakura-onsen",
+    "name": "Akakura Onsen (Myoko Kogen)",
+    "name_ja": "赤倉温泉",
+    "category": "ski",
+    "lat": 37.0170,
+    "lng": 138.1860,
+    "desc": "Hot spring village at the base of Myoko Kogen, a snowy area known for deep powder.",
+    "links": [],
+    "verified": false
+  },
+  {
+    "id": "joetsumyoko-station",
+    "name": "Joetsumyoko Station",
+    "name_ja": "上越妙高駅",
+    "category": "access",
+    "lat": 37.0450,
+    "lng": 138.2500,
+    "desc": "Hokuriku Shinkansen stop and the usual starting point for the Myoko area.",
+    "links": [],
+    "verified": false
+  },
+  {
+    "id": "hakkaisan",
+    "name": "Hakkaisan Brewery",
+    "name_ja": "八海山(八海醸造)",
+    "category": "sake",
+    "lat": 37.0400,
+    "lng": 138.8800,
+    "desc": "Well-known sake brewery in Minamiuonuma, close to the Yuzawa ski area. Check the brewery's site for tour and tasting availability.",
+    "links": [],
+    "verified": false
+  }
+]
