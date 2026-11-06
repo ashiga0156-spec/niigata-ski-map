@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Niigata Ski & Sake Map</title>
+  <meta name="description" content="A free map of Yuzawa and Myoko ski areas, sake breweries and access points in Niigata, Japan.">
+  <meta name="theme-color" content="#0f2a43">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="title">Niigata Ski &amp; Sake Map</div>
+    <nav class="filters" id="filters" aria-label="Filter places"></nav>
+  </header>
+
+  <div id="map" role="application" aria-label="Map of Niigata"></div>
+
+  <button id="locate" class="fab" type="button" aria-label="Show my location">◎</button>
+
+  <footer class="credit">
+    Part of the <a href="https://niigataumamiguide.substack.com" target="_blank" rel="noopener">Niigata Umami Guide</a> ·
+    Map data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors
+  </footer>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
