@@ -48,7 +48,7 @@ MAX_DIST_KM = 30.0       # farther than this from the anchor: reject
 VERIFIED_DIST_KM = 25.0  # and score must also be high enough
 VERIFIED_SCORE = 6
 MIN_SHARE = 0.6          # write pins.json only if this share of places resolved
-REQUEST_TIMEOUT = 70     # seconds per HTTP attempt
+REQUEST_TIMEOUT = 150     # seconds per HTTP attempt
 
 
 def log(msg):
@@ -74,7 +74,7 @@ def overpass(query):
             try:
                 log("  request to %s (attempt %d)" % (url.split("/")[2], attempt + 1))
                 req = urllib.request.Request(
-                    url, data=body, headers={"User-Agent": "niigata-ski-map-build/1.1"})
+                    url, data=body, headers={"User-Agent": "niigata-ski-map-build/1.2"})
                 with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as res:
                     data = json.load(res)
                 log("  ok: %d elements in %.0fs" % (len(data.get("elements", [])), time.time() - started))
@@ -91,27 +91,29 @@ def bbox_str():
 
 
 def category_query(category, literals):
-    rx = "|".join(sorted(set(literals)))
+    """Cheap, tag-indexed queries (no name regex over the whole bbox).
+    Names are matched locally afterwards."""
     b = bbox_str()
-    n = '["name"~"%s",i]' % rx
     if category == "ski":
         parts = [
-            'nwr["landuse"="winter_sports"]%s%s;' % (n, b),
-            'nwr["sport"~"ski",i]%s%s;' % (n, b),
-            'nwr["aerialway"]%s%s;' % (n, b),
-            'nwr["piste:type"]%s%s;' % (n, b),
-            'nwr["leisure"~"resort|sports_centre"]%s%s;' % (n, b),
-            'nwr["tourism"~"attraction|resort"]%s%s;' % (n, b),
+            'nwr["landuse"="winter_sports"]%s;' % b,
+            'nwr["sport"="skiing"]["name"]%s;' % b,
+            'nwr["aerialway"="station"]["name"]%s;' % b,
+            'nwr["tourism"="resort"]["name"]%s;' % b,
         ]
     elif category == "sake":
-        parts = ['nwr%s%s;' % (n, b)]
+        parts = [
+            'nwr["craft"~"brewery|sake_brewery"]%s;' % b,
+            'nwr["industrial"="brewery"]%s;' % b,
+            'nwr["shop"="alcohol"]["name"]%s;' % b,
+            'nwr["tourism"~"attraction|museum"]["name"~"酒|蔵"]%s;' % b,
+        ]
     else:
         parts = [
-            'nwr["railway"~"station|halt"]%s%s;' % (n, b),
-            'nwr["public_transport"="station"]%s%s;' % (n, b),
-            'nwr["aeroway"="aerodrome"]%s%s;' % (n, b),
+            'nwr["railway"="station"]["name"]%s;' % b,
+            'nwr["aeroway"="aerodrome"]["name"]%s;' % b,
         ]
-    return "[out:json][timeout:55];(" + "".join(parts) + ");out center tags;"
+    return "[out:json][timeout:120];(" + "".join(parts) + ");out center tags;"
 
 
 def fetch_all(places):
