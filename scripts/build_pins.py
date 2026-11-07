@@ -212,6 +212,8 @@ def match_place(place, elements):
         name = tags.get("name", "")
         if not any(l in name.lower() for l in lowered):
             continue
+        if place["category"] == "access" and name not in set(literals) | {l + "駅" for l in literals}:
+            continue  # e.g. reject 北長岡 when looking for 長岡
         c = center_of(el)
         if not c:
             continue
@@ -232,6 +234,37 @@ def match_place(place, elements):
     return cands[0], len(cands)
 
 
+NOMINATIM = "https://nominatim.openstreetmap.org/search"
+
+
+def nominatim(place):
+    """Fallback geocoder for places the Overpass tag search missed."""
+    lat, lon = ANCHORS[place["area"]]
+    s, w, n, e = BBOX
+    params = urllib.parse.urlencode({
+        "q": place.get("name_ja") or place["search"][0],
+        "format": "jsonv2", "limit": 5, "countrycodes": "jp",
+        "accept-language": "ja", "viewbox": "%s,%s,%s,%s" % (w, n, e, s), "bounded": 1,
+    })
+    try:
+        req = urllib.request.Request(NOMINATIM + "?" + params,
+                                     headers={"User-Agent": "niigata-ski-map-build/1.3"})
+        with urllib.request.urlopen(req, timeout=40) as res:
+            rows = json.load(res)
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as ex:
+        log("  nominatim failed for %s: %s" % (place["id"], ex))
+        return None
+    for r in rows:
+        d = haversine_km(lat, lon, float(r["lat"]), float(r["lon"]))
+        if d <= MAX_DIST_KM:
+            text = r.get("display_name", "")
+            hit = any(l in text for l in place["search"])
+            return {"ref": "nominatim/%s" % r.get("osm_id"), "name": text.split(",")[0],
+                    "lat": float(r["lat"]), "lon": float(r["lon"]), "dist": d,
+                    "score": VERIFIED_SCORE if hit else 0}
+    return None
+
+
 def make_pin(p, lat, lon, verified, source):
     return {
         "id": p["id"],
@@ -247,7 +280,7 @@ def make_pin(p, lat, lon, verified, source):
     }
 
 
-def build(places, elements, errors=None):
+def build(places, elements, errors=None, extra=None):
     errors = errors or {}
     pins, lines = [], []
     resolved = {}
@@ -256,11 +289,13 @@ def build(places, elements, errors=None):
     for p in places:
         if p.get("coords_from"):
             continue
-        if p["category"] in errors:
+        if p["category"] in errors and not (extra and p["id"] in extra):
             stats["missing"] += 1
             lines.append("| %s | ERROR | %s |" % (p["id"], errors[p["category"]]))
             continue
         best, n = match_place(p, elements.get(p["category"], []))
+        if not best and extra and p["id"] in extra:
+            best, n = extra[p["id"]], 0
         if not best:
             stats["missing"] += 1
             lines.append("| %s | not found in OSM | skipped |" % p["id"])
@@ -295,6 +330,18 @@ def main():
     places = json.loads(PLACES.read_text(encoding="utf-8"))
     elements, errors = fetch_all(places)
     pins, lines, stats = build(places, elements, errors)
+    placed_ids = {x["id"] for x in pins}
+    extra = {}
+    for p in places:
+        if p["id"] in placed_ids or p.get("coords_from"):
+            continue
+        log("Nominatim fallback: %s" % p["id"])
+        r = nominatim(p)
+        if r:
+            extra[p["id"]] = r
+        time.sleep(1.2)
+    if extra:
+        pins, lines, stats = build(places, elements, errors, extra)
     total = len(places)
     placed = len(pins)
 
