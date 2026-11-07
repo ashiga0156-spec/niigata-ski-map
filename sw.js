@@ -1,5 +1,5 @@
 // Bump VERSION whenever app files change so users get the update.
-var VERSION = 'v2';
+var VERSION = 'v3';
 var SHELL = 'shell-' + VERSION;
 var TILES = 'tiles-v1';
 var MAX_TILES = 400;
@@ -7,7 +7,10 @@ var MAX_TILES = 400;
 var SHELL_FILES = [
   './',
   'index.html',
+  'about.html',
+  'privacy.html',
   'css/style.css',
+  'css/page.css',
   'js/app.js',
   'data/pins.json',
   'manifest.webmanifest',
