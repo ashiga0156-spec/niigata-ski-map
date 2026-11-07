@@ -1,46 +1,46 @@
 # Pin build report
 
-Placed 0 of 40 places. OK: 0, to check: 0, missing: 40, copied: 0.
+Placed 24 of 40 places. OK: 23, to check: 0, missing: 16, copied: 1.
 
 | id | match | detail |
 |---|---|---|
-| naeba | ERROR | Overpass failed: The read operation timed out |
-| kagura | ERROR | Overpass failed: The read operation timed out |
-| gala-yuzawa | ERROR | Overpass failed: The read operation timed out |
-| kandatsu | ERROR | Overpass failed: The read operation timed out |
-| yuzawa-nakazato | ERROR | Overpass failed: The read operation timed out |
-| iwappara | ERROR | Overpass failed: The read operation timed out |
-| yuzawa-kogen | ERROR | Overpass failed: The read operation timed out |
-| joetsu-kokusai | ERROR | Overpass failed: The read operation timed out |
-| ishiuchi-maruyama | ERROR | Overpass failed: The read operation timed out |
-| maiko | ERROR | Overpass failed: The read operation timed out |
-| muika | ERROR | Overpass failed: The read operation timed out |
-| muikamachi-hakkaisan | ERROR | Overpass failed: The read operation timed out |
-| akakura-kanko | ERROR | Overpass failed: The read operation timed out |
-| akakura-onsen | ERROR | Overpass failed: The read operation timed out |
-| suginohara | ERROR | Overpass failed: The read operation timed out |
-| ikenotaira | ERROR | Overpass failed: The read operation timed out |
-| lotte-arai | ERROR | Overpass failed: The read operation timed out |
-| shirataki | ERROR | Overpass failed: The read operation timed out |
-| hakkaisan | ERROR | Overpass failed: The read operation timed out |
-| uonuma-no-sato | ERROR | Overpass failed: The read operation timed out |
-| aoki-shuzo | ERROR | Overpass failed: The read operation timed out |
-| takachiyo | ERROR | Overpass failed: The read operation timed out |
-| midorikawa | ERROR | Overpass failed: The read operation timed out |
-| myoko-shuzo | ERROR | Overpass failed: The read operation timed out |
-| musashino-shuzo | ERROR | Overpass failed: The read operation timed out |
-| maruyama-shuzojo | ERROR | Overpass failed: The read operation timed out |
-| yoshikawa-toji | ERROR | Overpass failed: The read operation timed out |
-| kiminoi | ERROR | Overpass failed: The read operation timed out |
-| ayumasamune | ERROR | Overpass failed: The read operation timed out |
-| chiyonohikari | ERROR | Overpass failed: The read operation timed out |
-| echigo-yuzawa-station | ERROR | Overpass failed: The read operation timed out |
-| echigo-nakazato-station | ERROR | Overpass failed: The read operation timed out |
-| urasa-station | ERROR | Overpass failed: The read operation timed out |
-| muikamachi-station | ERROR | Overpass failed: The read operation timed out |
-| nagaoka-station | ERROR | Overpass failed: The read operation timed out |
-| niigata-station | ERROR | Overpass failed: The read operation timed out |
-| niigata-airport | ERROR | Overpass failed: The read operation timed out |
-| joetsumyoko-station | ERROR | Overpass failed: The read operation timed out |
-| myoko-kogen-station | ERROR | Overpass failed: The read operation timed out |
-| ponshukan | echigo-yuzawa-station missing | skipped |
+| naeba | 苗場スキー場 (way/952129313) | score 15, 15.9 km from anchor, 1 candidates |
+| kagura | かぐらスキー場 (relation/12821614) | score 15, 9.3 km from anchor, 2 candidates |
+| gala-yuzawa | ガーラ湯沢スノーリゾート (way/948328123) | score 12, 2.9 km from anchor, 1 candidates |
+| kandatsu | not found in OSM | skipped |
+| yuzawa-nakazato | 湯沢中里スキーリゾート (way/680041845) | score 12, 4.6 km from anchor, 2 candidates |
+| iwappara | 岩原スキー場 (way/680045685) | score 15, 3.1 km from anchor, 1 candidates |
+| yuzawa-kogen | 湯沢高原スキー場 (way/948328283) | score 12, 1.4 km from anchor, 1 candidates |
+| joetsu-kokusai | 上越国際 (way/949500907) | score 13, 11.0 km from anchor, 1 candidates |
+| ishiuchi-maruyama | 石打丸山スキー場 (way/464023310) | score 12, 12.6 km from anchor, 1 candidates |
+| maiko | 舞子スノーリゾート (way/679253285) | score 15, 10.3 km from anchor, 1 candidates |
+| muika | ムイカスノーリゾート (way/626857453) | score 12, 4.0 km from anchor, 1 candidates |
+| muikamachi-hakkaisan | not found in OSM | skipped |
+| akakura-kanko | 赤倉観光リゾートスキー場 (way/937100226) | score 12, 18.4 km from anchor, 1 candidates |
+| akakura-onsen | 赤倉温泉スキー場 (way/937100227) | score 15, 17.3 km from anchor, 1 candidates |
+| suginohara | 妙高杉ノ原スキー場 (way/937086872) | score 12, 22.0 km from anchor, 1 candidates |
+| ikenotaira | 池の平温泉アルペンブリックスキー場 (way/937086873) | score 12, 20.2 km from anchor, 1 candidates |
+| lotte-arai | not found in OSM | skipped |
+| shirataki | not found in OSM | skipped |
+| hakkaisan | not found in OSM | skipped |
+| uonuma-no-sato | not found in OSM | skipped |
+| aoki-shuzo | not found in OSM | skipped |
+| takachiyo | not found in OSM | skipped |
+| midorikawa | not found in OSM | skipped |
+| myoko-shuzo | not found in OSM | skipped |
+| musashino-shuzo | not found in OSM | skipped |
+| maruyama-shuzojo | not found in OSM | skipped |
+| yoshikawa-toji | not found in OSM | skipped |
+| kiminoi | not found in OSM | skipped |
+| ayumasamune | not found in OSM | skipped |
+| chiyonohikari | not found in OSM | skipped |
+| echigo-yuzawa-station | 越後湯沢 (node/3548915150) | score 19, 0.3 km from anchor, 1 candidates |
+| echigo-nakazato-station | 越後中里 (node/264814993) | score 19, 4.3 km from anchor, 1 candidates |
+| urasa-station | 浦佐 (node/3548915157) | score 19, 12.5 km from anchor, 1 candidates |
+| muikamachi-station | 六日町 (node/3548915153) | score 19, 0.9 km from anchor, 2 candidates |
+| nagaoka-station | 北長岡 (node/4042543915) | score 16, 2.3 km from anchor, 2 candidates |
+| niigata-station | 新潟 (node/4087367885) | score 19, 0.3 km from anchor, 4 candidates |
+| niigata-airport | 新潟空港 (way/57007660) | score 13, 6.6 km from anchor, 1 candidates |
+| joetsumyoko-station | 上越妙高 (node/4109702964) | score 19, 7.7 km from anchor, 2 candidates |
+| myoko-kogen-station | 妙高高原 (node/4575781850) | score 19, 18.3 km from anchor, 1 candidates |
+| ponshukan | copied from echigo-yuzawa-station | offset slightly |
