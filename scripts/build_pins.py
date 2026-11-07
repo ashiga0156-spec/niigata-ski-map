@@ -5,7 +5,8 @@ Input : data/places.json  (names, categories, descriptions curated by hand)
 Output: data/pins.json    (what the map loads)
         data/build-report.md  (what matched, what did not)
 
-Python 3 standard library only. Meant to run in GitHub Actions.
+Only three Overpass requests are made (ski, sake, access); matching happens
+locally. Python 3 standard library only. Meant to run in GitHub Actions.
 """
 import json
 import math
@@ -25,10 +26,13 @@ REPORT = ROOT / "data" / "build-report.md"
 ENDPOINTS = [
     "https://overpass-api.de/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
 ]
 
-# Rough town centres. They limit the search box and break ties between
-# places that share a name.
+# south, west, north, east: Joetsu/Myoko, Yuzawa, Nagaoka and Niigata City.
+BBOX = (36.55, 137.95, 38.05, 139.45)
+
+# Rough town centres, used to break ties between places that share a name.
 ANCHORS = {
     "yuzawa": (36.9333, 138.8100),
     "minamiuonuma": (37.0600, 138.8800),
@@ -44,6 +48,11 @@ MAX_DIST_KM = 30.0       # farther than this from the anchor: reject
 VERIFIED_DIST_KM = 25.0  # and score must also be high enough
 VERIFIED_SCORE = 6
 MIN_SHARE = 0.6          # write pins.json only if this share of places resolved
+REQUEST_TIMEOUT = 70     # seconds per HTTP attempt
+
+
+def log(msg):
+    print(msg, flush=True)
 
 
 def haversine_km(lat1, lon1, lat2, lon2):
@@ -56,20 +65,70 @@ def haversine_km(lat1, lon1, lat2, lon2):
 
 
 def overpass(query):
-    """Run one Overpass query, trying each endpoint a few times."""
+    """Run one Overpass query, trying each endpoint a couple of times."""
     body = urllib.parse.urlencode({"data": query}).encode()
     last = None
-    for attempt in range(3):
+    for attempt in range(2):
         for url in ENDPOINTS:
+            started = time.time()
             try:
+                log("  request to %s (attempt %d)" % (url.split("/")[2], attempt + 1))
                 req = urllib.request.Request(
-                    url, data=body, headers={"User-Agent": "niigata-ski-map-build/1.0"})
-                with urllib.request.urlopen(req, timeout=90) as res:
-                    return json.load(res)
-            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+                    url, data=body, headers={"User-Agent": "niigata-ski-map-build/1.1"})
+                with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as res:
+                    data = json.load(res)
+                log("  ok: %d elements in %.0fs" % (len(data.get("elements", [])), time.time() - started))
+                return data
+            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as e:
                 last = e
-                time.sleep(5 * (attempt + 1))
+                log("  failed after %.0fs: %s" % (time.time() - started, e))
+                time.sleep(4)
     raise RuntimeError("Overpass failed: %s" % last)
+
+
+def bbox_str():
+    return "(%.3f,%.3f,%.3f,%.3f)" % BBOX
+
+
+def category_query(category, literals):
+    rx = "|".join(sorted(set(literals)))
+    b = bbox_str()
+    n = '["name"~"%s",i]' % rx
+    if category == "ski":
+        parts = [
+            'nwr["landuse"="winter_sports"]%s%s;' % (n, b),
+            'nwr["sport"~"ski",i]%s%s;' % (n, b),
+            'nwr["aerialway"]%s%s;' % (n, b),
+            'nwr["piste:type"]%s%s;' % (n, b),
+            'nwr["leisure"~"resort|sports_centre"]%s%s;' % (n, b),
+            'nwr["tourism"~"attraction|resort"]%s%s;' % (n, b),
+        ]
+    elif category == "sake":
+        parts = ['nwr%s%s;' % (n, b)]
+    else:
+        parts = [
+            'nwr["railway"~"station|halt"]%s%s;' % (n, b),
+            'nwr["public_transport"="station"]%s%s;' % (n, b),
+            'nwr["aeroway"="aerodrome"]%s%s;' % (n, b),
+        ]
+    return "[out:json][timeout:55];(" + "".join(parts) + ");out center tags;"
+
+
+def fetch_all(places):
+    """One request per category. Returns ({category: elements}, {category: error})."""
+    elements, errors = {}, {}
+    for category in ("ski", "sake", "access"):
+        literals = [s for p in places if p["category"] == category for s in p["search"]]
+        if not literals:
+            continue
+        log("Fetching %s (%d search terms)" % (category, len(literals)))
+        try:
+            elements[category] = overpass(category_query(category, literals)).get("elements", [])
+        except RuntimeError as e:
+            errors[category] = str(e)
+            elements[category] = []
+        time.sleep(3)
+    return elements, errors
 
 
 def center_of(el):
@@ -136,28 +195,24 @@ def score(tags, category, literals, name):
     return s
 
 
-def search(place):
-    """Return (best_candidate_or_None, how_many_candidates)."""
+def match_place(place, elements):
+    """Pick the best element for one place. Returns (best_or_None, candidate_count)."""
     lat, lon = ANCHORS[place["area"]]
-    south, north = lat - 0.35, lat + 0.35
-    west, east = lon - 0.5, lon + 0.5
-    rx = "(" + "|".join(place["search"]) + ")"
-    query = ('[out:json][timeout:60];'
-             'nwr["name"~"%s",i](%.4f,%.4f,%.4f,%.4f);out center tags;'
-             % (rx, south, west, north, east))
-    data = overpass(query)
-    cands = []
-    seen = set()
-    for el in data.get("elements", []):
+    literals = place["search"]
+    lowered = [l.lower() for l in literals]
+    cands, seen = [], set()
+    for el in elements:
         key = (el.get("type"), el.get("id"))
         if key in seen:
             continue
         seen.add(key)
+        tags = el.get("tags", {})
+        name = tags.get("name", "")
+        if not any(l in name.lower() for l in lowered):
+            continue
         c = center_of(el)
         if not c:
             continue
-        tags = el.get("tags", {})
-        name = tags.get("name", "")
         dist = haversine_km(lat, lon, c[0], c[1])
         if dist > MAX_DIST_KM:
             continue
@@ -167,7 +222,7 @@ def search(place):
             "lat": c[0],
             "lon": c[1],
             "dist": dist,
-            "score": score(tags, place["category"], place["search"], name),
+            "score": score(tags, place["category"], literals, name),
         })
     if not cands:
         return None, 0
@@ -175,7 +230,23 @@ def search(place):
     return cands[0], len(cands)
 
 
-def build(places, lookup=search, pause=2.0):
+def make_pin(p, lat, lon, verified, source):
+    return {
+        "id": p["id"],
+        "name": p["name"],
+        "name_ja": p.get("name_ja", ""),
+        "category": p["category"],
+        "lat": round(lat, 5),
+        "lng": round(lon, 5),
+        "desc": p.get("desc", ""),
+        "links": p.get("links", []),
+        "verified": bool(verified),
+        "source": source,
+    }
+
+
+def build(places, elements, errors=None):
+    errors = errors or {}
     pins, lines = [], []
     resolved = {}
     stats = {"ok": 0, "weak": 0, "missing": 0, "copied": 0}
@@ -183,12 +254,11 @@ def build(places, lookup=search, pause=2.0):
     for p in places:
         if p.get("coords_from"):
             continue
-        try:
-            best, n = lookup(p)
-        except RuntimeError as e:
-            best, n = None, 0
-            lines.append("| %s | ERROR | %s |" % (p["id"], e))
-        time.sleep(pause)
+        if p["category"] in errors:
+            stats["missing"] += 1
+            lines.append("| %s | ERROR | %s |" % (p["id"], errors[p["category"]]))
+            continue
+        best, n = match_place(p, elements.get(p["category"], []))
         if not best:
             stats["missing"] += 1
             lines.append("| %s | not found in OSM | skipped |" % p["id"])
@@ -219,24 +289,10 @@ def build(places, lookup=search, pause=2.0):
     return pins, lines, stats
 
 
-def make_pin(p, lat, lon, verified, source):
-    return {
-        "id": p["id"],
-        "name": p["name"],
-        "name_ja": p.get("name_ja", ""),
-        "category": p["category"],
-        "lat": round(lat, 5),
-        "lng": round(lon, 5),
-        "desc": p.get("desc", ""),
-        "links": p.get("links", []),
-        "verified": bool(verified),
-        "source": source,
-    }
-
-
 def main():
     places = json.loads(PLACES.read_text(encoding="utf-8"))
-    pins, lines, stats = build(places)
+    elements, errors = fetch_all(places)
+    pins, lines, stats = build(places, elements, errors)
     total = len(places)
     placed = len(pins)
 
@@ -248,9 +304,9 @@ def main():
 
     target = OUT if total and placed / total >= MIN_SHARE else CANDIDATE
     target.write_text(json.dumps(pins, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(REPORT.read_text(encoding="utf-8"))
+    log(REPORT.read_text(encoding="utf-8"))
     if target is CANDIDATE:
-        print("Too few places resolved; wrote %s instead of %s" % (CANDIDATE.name, OUT.name))
+        log("Too few places resolved; wrote %s instead of %s" % (CANDIDATE.name, OUT.name))
         return 1
     return 0
 
