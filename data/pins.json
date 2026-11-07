@@ -168,6 +168,18 @@
     "source": "osm:way/937086873"
   },
   {
+    "id": "shirataki",
+    "name": "Shirataki Brewery",
+    "name_ja": "白瀧酒造",
+    "category": "sake",
+    "lat": 36.93909,
+    "lng": 138.80922,
+    "desc": "Yuzawa brewery known for the Jozen Mizu no Gotoshi and Minatoya Tosuke brands. Winter brewery tours are offered by reservation; check the brewery's site.",
+    "links": [],
+    "verified": true,
+    "source": "osm:nominatim/845285004"
+  },
+  {
     "id": "ponshukan",
     "name": "Ponshukan Sake Museum (Echigo-Yuzawa Station)",
     "name_ja": "ぽんしゅ館 越後湯沢驛店",
@@ -178,6 +190,54 @@
     "links": [],
     "verified": true,
     "source": "copy:echigo-yuzawa-station"
+  },
+  {
+    "id": "hakkaisan",
+    "name": "Hakkaisan Brewery",
+    "name_ja": "八海醸造",
+    "category": "sake",
+    "lat": 37.10035,
+    "lng": 138.927,
+    "desc": "Maker of Hakkaisan sake, one of Niigata's best-known brands, in Minamiuonuma at the foot of Mt. Hakkai.",
+    "links": [],
+    "verified": true,
+    "source": "osm:nominatim/1055578312"
+  },
+  {
+    "id": "uonuma-no-sato",
+    "name": "Uonuma no Sato (Hakkaisan complex)",
+    "name_ja": "魚沼の里",
+    "category": "sake",
+    "lat": 37.10845,
+    "lng": 138.9318,
+    "desc": "Visitor complex run by Hakkaisan with shops, restaurants, a craft beer brewery and a snow storehouse. About 10 minutes by taxi from Itsukamachi Station.",
+    "links": [],
+    "verified": true,
+    "source": "osm:nominatim/441137405"
+  },
+  {
+    "id": "myoko-shuzo",
+    "name": "Myoko Shuzo",
+    "name_ja": "妙高酒造",
+    "category": "sake",
+    "lat": 37.01046,
+    "lng": 138.20794,
+    "desc": "Joetsu brewery making Myokosan sake with water from Mt. Myoko. Brewery visits by prior consultation.",
+    "links": [],
+    "verified": false,
+    "source": "osm:nominatim/1219927274"
+  },
+  {
+    "id": "chiyonohikari",
+    "name": "Chiyonohikari Shuzo",
+    "name_ja": "千代の光酒造",
+    "category": "sake",
+    "lat": 37.01046,
+    "lng": 138.20794,
+    "desc": "Brewery in Myoko City.",
+    "links": [],
+    "verified": true,
+    "source": "osm:nominatim/1219927274"
   },
   {
     "id": "echigo-yuzawa-station",
@@ -232,12 +292,12 @@
     "name": "Nagaoka Station",
     "name_ja": "長岡駅",
     "category": "access",
-    "lat": 37.46817,
-    "lng": 138.86182,
+    "lat": 37.44788,
+    "lng": 138.85417,
     "desc": "Major Joetsu Shinkansen stop, with a Ponshukan sake shop.",
     "links": [],
     "verified": true,
-    "source": "osm:node/4042543915"
+    "source": "osm:node/5574679639"
   },
   {
     "id": "niigata-station",

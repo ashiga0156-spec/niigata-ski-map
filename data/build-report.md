@@ -1,6 +1,6 @@
 # Pin build report
 
-Placed 24 of 40 places. OK: 23, to check: 0, missing: 16, copied: 1.
+Placed 29 of 40 places. OK: 27, to check: 1, missing: 11, copied: 1.
 
 | id | match | detail |
 |---|---|---|
@@ -21,25 +21,25 @@ Placed 24 of 40 places. OK: 23, to check: 0, missing: 16, copied: 1.
 | suginohara | 妙高杉ノ原スキー場 (way/937086872) | score 12, 22.0 km from anchor, 1 candidates |
 | ikenotaira | 池の平温泉アルペンブリックスキー場 (way/937086873) | score 12, 20.2 km from anchor, 1 candidates |
 | lotte-arai | not found in OSM | skipped |
-| shirataki | not found in OSM | skipped |
-| hakkaisan | not found in OSM | skipped |
-| uonuma-no-sato | not found in OSM | skipped |
+| shirataki | 白瀧酒造株式会社 (nominatim/845285004) | score 6, 0.6 km from anchor, 0 candidates |
+| hakkaisan | 八海醸造株式会社 (nominatim/1055578312) | score 6, 6.1 km from anchor, 0 candidates |
+| uonuma-no-sato | 魚沼の里 (nominatim/441137405) | score 6, 7.1 km from anchor, 0 candidates |
 | aoki-shuzo | not found in OSM | skipped |
 | takachiyo | not found in OSM | skipped |
 | midorikawa | not found in OSM | skipped |
-| myoko-shuzo | not found in OSM | skipped |
+| myoko-shuzo | 千代の光酒造(株） (nominatim/1219927274) | score 0, 15.8 km from anchor, 0 candidates **CHECK** |
 | musashino-shuzo | not found in OSM | skipped |
 | maruyama-shuzojo | not found in OSM | skipped |
 | yoshikawa-toji | not found in OSM | skipped |
 | kiminoi | not found in OSM | skipped |
 | ayumasamune | not found in OSM | skipped |
-| chiyonohikari | not found in OSM | skipped |
+| chiyonohikari | 千代の光酒造(株） (nominatim/1219927274) | score 6, 5.9 km from anchor, 0 candidates |
 | echigo-yuzawa-station | 越後湯沢 (node/3548915150) | score 19, 0.3 km from anchor, 1 candidates |
 | echigo-nakazato-station | 越後中里 (node/264814993) | score 19, 4.3 km from anchor, 1 candidates |
 | urasa-station | 浦佐 (node/3548915157) | score 19, 12.5 km from anchor, 1 candidates |
 | muikamachi-station | 六日町 (node/3548915153) | score 19, 0.9 km from anchor, 2 candidates |
-| nagaoka-station | 北長岡 (node/4042543915) | score 16, 2.3 km from anchor, 2 candidates |
-| niigata-station | 新潟 (node/4087367885) | score 19, 0.3 km from anchor, 4 candidates |
+| nagaoka-station | 長岡 (node/5574679639) | score 13, 0.4 km from anchor, 1 candidates |
+| niigata-station | 新潟 (node/4087367885) | score 19, 0.3 km from anchor, 1 candidates |
 | niigata-airport | 新潟空港 (way/57007660) | score 13, 6.6 km from anchor, 1 candidates |
 | joetsumyoko-station | 上越妙高 (node/4109702964) | score 19, 7.7 km from anchor, 2 candidates |
 | myoko-kogen-station | 妙高高原 (node/4575781850) | score 19, 18.3 km from anchor, 1 candidates |
