@@ -539,5 +539,549 @@
     ],
     "desc": "Station on the Echigo Tokimeki Railway (Myoko Haneuma Line) in the Myoko ski area. Buses run from here to Suginohara.",
     "links": []
+  },
+  {
+    "id": "tanaka-shuzo",
+    "name": "Tanaka Shuzo",
+    "name_ja": "田中酒造",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "田中酒造"
+    ],
+    "desc": "Sake brewery in Joetsu, Niigata.",
+    "links": [],
+    "manual": [
+      37.1728,
+      138.2045
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "joetsu-shuzo",
+    "name": "Joetsu Shuzo",
+    "name_ja": "上越酒造",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "上越酒造"
+    ],
+    "desc": "Sake brewery in Joetsu (Yoshikawa), Niigata.",
+    "links": [],
+    "manual": [
+      37.2281,
+      138.4128
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "kaga-no-i",
+    "name": "Kaganoi Shuzo",
+    "name_ja": "加賀の井酒造",
+    "category": "sake",
+    "area": "itoigawa",
+    "search": [
+      "加賀の井酒造"
+    ],
+    "desc": "Sake brewery in Itoigawa, Niigata.",
+    "links": [],
+    "manual": [
+      37.0456,
+      137.8647
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "takeda-shuzoten",
+    "name": "Takeda Shuzoten",
+    "name_ja": "竹田酒造店",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "竹田酒造店"
+    ],
+    "desc": "Sake brewery in Joetsu (Kakizaki), Niigata.",
+    "links": [],
+    "manual": [
+      37.2344,
+      138.3672
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "niigata-daiichi-shuzo",
+    "name": "Niigata Daiichi Shuzo",
+    "name_ja": "新潟第一酒造",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "新潟第一酒造"
+    ],
+    "desc": "Sake brewery in Joetsu (Uragawara), Niigata.",
+    "links": [],
+    "manual": [
+      37.1953,
+      138.3756
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "kubiki-shuzo",
+    "name": "Kubiki Shuzo",
+    "name_ja": "頚城酒造",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "頚城酒造"
+    ],
+    "desc": "Sake brewery in Joetsu (Kakizaki), Niigata.",
+    "links": [],
+    "manual": [
+      37.2181,
+      138.3564
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "daidaigiku-jozo",
+    "name": "Daidaigiku Jozo",
+    "name_ja": "代々菊醸造",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "代々菊醸造"
+    ],
+    "desc": "Sake brewery in Joetsu (Kubiki), Niigata.",
+    "links": [],
+    "manual": [
+      37.1158,
+      138.3619
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "koyama-shuzoten",
+    "name": "Koyama Shuzoten",
+    "name_ja": "小山酒造店",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "小山酒造店"
+    ],
+    "desc": "Sake brewery in Joetsu (Sanwa), Niigata.",
+    "links": [],
+    "manual": [
+      37.1706,
+      138.3375
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "fujinawa-shuzo",
+    "name": "Fujinawa Shuzo",
+    "name_ja": "藤縄酒造",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "藤縄酒造"
+    ],
+    "desc": "Sake brewery in Joetsu (Ogata), Niigata.",
+    "links": [],
+    "manual": [
+      37.2269,
+      138.3242
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "asahi-shuzo",
+    "name": "Asahi Shuzo",
+    "name_ja": "朝日酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "朝日酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.3694,
+      138.8354
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "yoshinogawa",
+    "name": "Yoshinogawa",
+    "name_ja": "吉乃川",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "吉乃川"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.4267,
+      138.8528
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "morohashi-shuzo",
+    "name": "Morohashi Shuzo",
+    "name_ja": "諸橋酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "諸橋酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata, known for the Koshino Kagetora brand.",
+    "links": [],
+    "manual": [
+      37.4772,
+      138.995
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "kawachu-shuzo",
+    "name": "Kawachu Shuzo",
+    "name_ja": "河忠酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "河忠酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.3241,
+      138.749
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "hakuro-shuzo",
+    "name": "Hakuro Shuzo",
+    "name_ja": "柏露酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "柏露酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.445,
+      138.8681
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "hasegawa-shuzo",
+    "name": "Hasegawa Shuzo",
+    "name_ja": "長谷川酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "長谷川酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.4278,
+      138.8519
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "ofuku-shuzo",
+    "name": "Ofuku Shuzo",
+    "name_ja": "お福酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "お福酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.4691,
+      138.8361
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "hara-shuzo",
+    "name": "Hara Shuzo",
+    "name_ja": "原酒造",
+    "category": "sake",
+    "area": "kashiwazaki",
+    "search": [
+      "原酒造"
+    ],
+    "desc": "Sake brewery in Kashiwazaki, Niigata, known for the Koshi no Homare brand.",
+    "links": [],
+    "manual": [
+      37.3621,
+      138.5601
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "ikeura-shuzo",
+    "name": "Ikeura Shuzo",
+    "name_ja": "池浦酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "池浦酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.3005,
+      138.7214
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "nakagawa-shuzo",
+    "name": "Nakagawa Shuzo",
+    "name_ja": "中川酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "中川酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.4328,
+      138.8611
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "takahashi-shuzo",
+    "name": "Takahashi Shuzo",
+    "name_ja": "高橋酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "高橋酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.3553,
+      138.7758
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "asatsuma-shuzo",
+    "name": "Asatsuma Shuzo",
+    "name_ja": "朝妻酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "朝妻酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.4475,
+      138.8612
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "hozan-shuzo",
+    "name": "Hozan Shuzo",
+    "name_ja": "宝山酒造",
+    "category": "sake",
+    "area": "niigata",
+    "search": [
+      "宝山酒造"
+    ],
+    "desc": "Sake brewery in Niigata City (Nishi-Kan), Niigata.",
+    "links": [],
+    "manual": [
+      37.7275,
+      138.922
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "uonuma-shuzo",
+    "name": "Uonuma Shuzo",
+    "name_ja": "魚沼酒造",
+    "category": "sake",
+    "area": "tokamachi",
+    "search": [
+      "魚沼酒造"
+    ],
+    "desc": "Sake brewery in Tokamachi, Niigata.",
+    "links": [],
+    "manual": [
+      37.1294,
+      138.7428
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "naeba-shuzo",
+    "name": "Naeba Shuzo",
+    "name_ja": "苗場酒造",
+    "category": "sake",
+    "area": "tsunan",
+    "search": [
+      "苗場酒造"
+    ],
+    "desc": "Sake brewery in Tsunan, Niigata.",
+    "links": [],
+    "manual": [
+      37.0189,
+      138.6536
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "tsunan-jozo",
+    "name": "Tsunan Jozo",
+    "name_ja": "津南醸造",
+    "category": "sake",
+    "area": "tsunan",
+    "search": [
+      "津南醸造"
+    ],
+    "desc": "Sake brewery in Tsunan, Niigata.",
+    "links": [],
+    "manual": [
+      36.9981,
+      138.675
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "tamagawa-shuzo",
+    "name": "Tamagawa Shuzo",
+    "name_ja": "玉川酒造",
+    "category": "sake",
+    "area": "uonuma",
+    "search": [
+      "玉川酒造"
+    ],
+    "desc": "Sake brewery in Uonuma, Niigata.",
+    "links": [],
+    "manual": [
+      37.2886,
+      139.0208
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "takanoi-shuzo",
+    "name": "Takanoi Shuzo",
+    "name_ja": "高の井酒造",
+    "category": "sake",
+    "area": "ojiya",
+    "search": [
+      "高の井酒造"
+    ],
+    "desc": "Sake brewery in Ojiya, Niigata.",
+    "links": [],
+    "manual": [
+      37.3197,
+      138.8028
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "masukagami",
+    "name": "Masukagami",
+    "name_ja": "マスカガミ",
+    "category": "sake",
+    "area": "kamo",
+    "search": [
+      "マスカガミ"
+    ],
+    "desc": "Sake brewery in Kamo, Niigata.",
+    "links": [],
+    "manual": [
+      37.6631,
+      139.0436
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "yukitsubaki-shuzo",
+    "name": "Yukitsubaki Shuzo",
+    "name_ja": "雪椿酒造",
+    "category": "sake",
+    "area": "kamo",
+    "search": [
+      "雪椿酒造"
+    ],
+    "desc": "Sake brewery in Kamo, Niigata.",
+    "links": [],
+    "manual": [
+      37.6617,
+      139.04
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "fukugao-shuzo",
+    "name": "Fukugao Shuzo",
+    "name_ja": "福顔酒造",
+    "category": "sake",
+    "area": "sanjo",
+    "search": [
+      "福顔酒造"
+    ],
+    "desc": "Sake brewery in Sanjo, Niigata.",
+    "links": [],
+    "manual": [
+      37.6331,
+      138.9664
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "onda-shuzo",
+    "name": "Onda Shuzo",
+    "name_ja": "恩田酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "恩田酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.525,
+      138.7733
+    ],
+    "manual_verified": false
+  },
+  {
+    "id": "sekihara-shuzo",
+    "name": "Sekihara Shuzo",
+    "name_ja": "関原酒造",
+    "category": "sake",
+    "area": "nagaoka",
+    "search": [
+      "関原酒造"
+    ],
+    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "links": [],
+    "manual": [
+      37.4331,
+      138.8011
+    ],
+    "manual_verified": false
   }
 ]
