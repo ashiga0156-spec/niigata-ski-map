@@ -1083,5 +1083,170 @@
       138.8011
     ],
     "manual_verified": false
+  },
+  {
+    "id": "naspa",
+    "name": "NASPA Ski Garden",
+    "name_ja": "NASPAスキーガーデン",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "NASPA",
+      "ナスパ"
+    ],
+    "desc": "Ski area in Yuzawa, Niigata.",
+    "links": [],
+    "approx": [
+      36.9328,
+      138.8314
+    ]
+  },
+  {
+    "id": "yuzawa-park",
+    "name": "Yuzawa Park Ski Area",
+    "name_ja": "湯沢パークスキー場",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "湯沢パーク"
+    ],
+    "desc": "Ski area in Yuzawa (Doaru), Niigata.",
+    "links": [],
+    "approx": [
+      36.9536,
+      138.8089
+    ]
+  },
+  {
+    "id": "okutadami-maruyama",
+    "name": "Okutadami Maruyama Ski Area",
+    "name_ja": "奥只見丸山スキー場",
+    "category": "ski",
+    "area": "uonuma",
+    "search": [
+      "奥只見丸山",
+      "奥只見"
+    ],
+    "desc": "Ski area in Uonuma, Niigata.",
+    "links": [],
+    "approx": [
+      37.1519,
+      139.1028
+    ]
+  },
+  {
+    "id": "koide",
+    "name": "Koide Ski Area",
+    "name_ja": "小出スキー場",
+    "category": "ski",
+    "area": "uonuma",
+    "search": [
+      "小出スキー"
+    ],
+    "desc": "Ski area in Uonuma, Niigata.",
+    "links": [],
+    "approx": [
+      37.2289,
+      138.9567
+    ]
+  },
+  {
+    "id": "matsunoyama-onsen",
+    "name": "Matsunoyama Onsen Ski Area",
+    "name_ja": "松之山温泉スキー場",
+    "category": "ski",
+    "area": "tokamachi",
+    "search": [
+      "松之山"
+    ],
+    "desc": "Ski area in Tokamachi (Matsunoyama), Niigata.",
+    "links": [],
+    "approx": [
+      37.135,
+      138.5992
+    ]
+  },
+  {
+    "id": "seki-onsen",
+    "name": "Seki Onsen Ski Area",
+    "name_ja": "関温泉スキー場",
+    "category": "ski",
+    "area": "myoko",
+    "search": [
+      "関温泉スキー",
+      "関温泉"
+    ],
+    "desc": "Ski area in Myoko (Seki Onsen), Niigata.",
+    "links": [],
+    "approx": [
+      36.8903,
+      138.2436
+    ]
+  },
+  {
+    "id": "kyukamura-myoko",
+    "name": "Kyukamura Myoko Runrun Ski Area",
+    "name_ja": "休暇村妙高ルンルンスキー場",
+    "category": "ski",
+    "area": "myoko",
+    "search": [
+      "休暇村妙高",
+      "ルンルン"
+    ],
+    "desc": "Ski area in Myoko (Sekiyama), Niigata.",
+    "links": [],
+    "approx": [
+      36.8833,
+      138.2458
+    ]
+  },
+  {
+    "id": "cupid-valley",
+    "name": "Cupid Valley",
+    "name_ja": "キューピットバレイ",
+    "category": "ski",
+    "area": "joetsu",
+    "search": [
+      "キューピット"
+    ],
+    "desc": "Ski area in Joetsu (Yasuzuka), Niigata.",
+    "links": [],
+    "approx": [
+      37.1953,
+      138.455
+    ]
+  },
+  {
+    "id": "kanayasan",
+    "name": "Kanayasan Ski Area",
+    "name_ja": "金谷山スキー場",
+    "category": "ski",
+    "area": "joetsu",
+    "search": [
+      "金谷山"
+    ],
+    "desc": "Ski area in Joetsu, Niigata.",
+    "links": [],
+    "approx": [
+      37.1192,
+      138.2547
+    ]
+  },
+  {
+    "id": "charmant-hiuchi",
+    "name": "Charmant Hiuchi Ski Area",
+    "name_ja": "シャルマン火打スキー場",
+    "category": "ski",
+    "area": "itoigawa",
+    "search": [
+      "シャルマン火打",
+      "シャルマン"
+    ],
+    "desc": "Ski area in Itoigawa, Niigata.",
+    "links": [],
+    "approx": [
+      36.98,
+      137.9942
+    ]
   }
 ]
