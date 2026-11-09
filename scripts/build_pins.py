@@ -42,13 +42,19 @@ ANCHORS = {
     "joetsu": (37.1500, 138.2400),
     "nagaoka": (37.4500, 138.8500),
     "niigata": (37.9100, 139.0600),
+    "itoigawa": (37.0400, 137.8600),
+    "kashiwazaki": (37.3700, 138.5600),
+    "tokamachi": (37.1300, 138.7500),
+    "ojiya": (37.3100, 138.8000),
+    "kamo": (37.6600, 139.0400),
+    "sanjo": (37.6300, 138.9600),
 }
 
 MAX_DIST_KM = 30.0       # farther than this from the anchor: reject
 VERIFIED_DIST_KM = 25.0  # and score must also be high enough
 VERIFIED_SCORE = 6
 MIN_SHARE = 0.6          # write pins.json only if this share of places resolved
-REQUEST_TIMEOUT = 150     # seconds per HTTP attempt
+REQUEST_TIMEOUT = 100     # seconds per HTTP attempt
 
 
 def log(msg):
@@ -68,7 +74,7 @@ def overpass(query):
     """Run one Overpass query, trying each endpoint a couple of times."""
     body = urllib.parse.urlencode({"data": query}).encode()
     last = None
-    for attempt in range(2):
+    for attempt in range(3):
         for url in ENDPOINTS:
             started = time.time()
             try:
@@ -82,7 +88,7 @@ def overpass(query):
             except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as e:
                 last = e
                 log("  failed after %.0fs: %s" % (time.time() - started, e))
-                time.sleep(4)
+                time.sleep(8)
     raise RuntimeError("Overpass failed: %s" % last)
 
 
@@ -282,18 +288,15 @@ def make_pin(p, lat, lon, verified, source):
     }
 
 
-def build(places, elements, errors=None, extra=None):
+def build(places, elements, errors=None, extra=None, use_approx=False, previous=None):
     errors = errors or {}
+    previous = previous or {}
     pins, lines = [], []
     resolved = {}
     stats = {"ok": 0, "weak": 0, "missing": 0, "copied": 0}
 
     for p in places:
         if p.get("coords_from"):
-            continue
-        if p["category"] in errors and not (extra and p["id"] in extra):
-            stats["missing"] += 1
-            lines.append("| %s | ERROR | %s |" % (p["id"], errors[p["category"]]))
             continue
         if p.get("manual"):
             mlat, mlon = p["manual"]
@@ -302,9 +305,30 @@ def build(places, elements, errors=None, extra=None):
             lines.append("| %s | manual coordinates | from places.json |" % p["id"])
             pins.append(make_pin(p, mlat, mlon, p.get("manual_verified", True), "manual"))
             continue
+        if p["category"] in errors and p["id"] in previous:
+            old = previous[p["id"]]
+            stats["ok"] += 1
+            resolved[p["id"]] = (old["lat"], old["lng"])
+            lines.append("| %s | kept from previous build | Overpass failed this time |" % p["id"])
+            old = dict(old)
+            old["desc"] = p.get("desc", old.get("desc", ""))
+            old["links"] = p.get("links", old.get("links", []))
+            pins.append(old)
+            continue
+        if p["category"] in errors and not (extra and p["id"] in extra) and not (use_approx and p.get("approx")):
+            stats["missing"] += 1
+            lines.append("| %s | ERROR | %s |" % (p["id"], errors[p["category"]]))
+            continue
         best, n = match_place(p, elements.get(p["category"], []))
         if not best and extra and p["id"] in extra:
             best, n = extra[p["id"]], 0
+        if not best and use_approx and p.get("approx"):
+            alat, alon = p["approx"]
+            stats["weak"] += 1
+            resolved[p["id"]] = (alat, alon)
+            lines.append("| %s | approximate coordinates | not found in OSM/Nominatim, **CHECK** |" % p["id"])
+            pins.append(make_pin(p, alat, alon, False, "approx"))
+            continue
         if not best:
             stats["missing"] += 1
             lines.append("| %s | not found in OSM | skipped |" % p["id"])
@@ -338,7 +362,13 @@ def build(places, elements, errors=None, extra=None):
 def main():
     places = json.loads(PLACES.read_text(encoding="utf-8"))
     elements, errors = fetch_all(places)
-    pins, lines, stats = build(places, elements, errors)
+    previous = {}
+    if OUT.exists():
+        try:
+            previous = {x["id"]: x for x in json.loads(OUT.read_text(encoding="utf-8"))}
+        except (ValueError, KeyError):
+            previous = {}
+    pins, lines, stats = build(places, elements, errors, previous=previous)
     placed_ids = {x["id"] for x in pins}
     extra = {}
     for p in places:
@@ -349,8 +379,7 @@ def main():
         if r:
             extra[p["id"]] = r
         time.sleep(1.2)
-    if extra:
-        pins, lines, stats = build(places, elements, errors, extra)
+    pins, lines, stats = build(places, elements, errors, extra, use_approx=True, previous=previous)
     total = len(places)
     placed = len(pins)
 
