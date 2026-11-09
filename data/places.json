@@ -16,6 +16,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.79546,
+      138.78625
     ]
   },
   {
@@ -35,6 +39,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.88963,
+      138.75445
     ]
   },
   {
@@ -54,6 +62,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.95092,
+      138.79958
     ]
   },
   {
@@ -96,6 +108,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.91439,
+      138.8491
     ]
   },
   {
@@ -115,6 +131,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.93834,
+      138.84062
     ]
   },
   {
@@ -133,6 +153,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.94048,
+      138.80389
     ]
   },
   {
@@ -151,6 +175,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      37.03347,
+      138.8194
     ]
   },
   {
@@ -169,6 +197,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.97854,
+      138.80259
     ]
   },
   {
@@ -188,6 +220,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.98311,
+      138.82486
     ]
   },
   {
@@ -207,6 +243,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      37.0716,
+      138.84606
     ]
   },
   {
@@ -248,6 +288,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.88717,
+      138.17763
     ]
   },
   {
@@ -266,6 +310,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.89606,
+      138.17623
     ]
   },
   {
@@ -285,6 +333,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.85706,
+      138.15503
     ]
   },
   {
@@ -304,6 +356,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      36.87271,
+      138.17192
     ]
   },
   {
@@ -753,10 +809,9 @@
     "desc": "Sake brewery in Joetsu, Niigata.",
     "links": [],
     "manual": [
-      37.1728,
-      138.2045
-    ],
-    "manual_verified": false
+      37.1942,
+      138.1896
+    ]
   },
   {
     "id": "joetsu-shuzo",
@@ -770,10 +825,9 @@
     "desc": "Sake brewery in Joetsu (Yoshikawa), Niigata.",
     "links": [],
     "manual": [
-      37.2281,
-      138.4128
-    ],
-    "manual_verified": false
+      37.09814,
+      138.33544
+    ]
   },
   {
     "id": "kaga-no-i",
@@ -787,10 +841,9 @@
     "desc": "Sake brewery in Itoigawa, Niigata.",
     "links": [],
     "manual": [
-      37.0456,
-      137.8647
-    ],
-    "manual_verified": false
+      37.04544,
+      137.85932
+    ]
   },
   {
     "id": "takeda-shuzoten",
@@ -804,10 +857,9 @@
     "desc": "Sake brewery in Joetsu (Kakizaki), Niigata.",
     "links": [],
     "manual": [
-      37.2344,
-      138.3672
-    ],
-    "manual_verified": false
+      37.21963,
+      138.31313
+    ]
   },
   {
     "id": "niigata-daiichi-shuzo",
@@ -821,10 +873,9 @@
     "desc": "Sake brewery in Joetsu (Uragawara), Niigata.",
     "links": [],
     "manual": [
-      37.1953,
-      138.3756
-    ],
-    "manual_verified": false
+      37.16326,
+      138.41412
+    ]
   },
   {
     "id": "kubiki-shuzo",
@@ -838,10 +889,9 @@
     "desc": "Sake brewery in Joetsu (Kakizaki), Niigata.",
     "links": [],
     "manual": [
-      37.2181,
-      138.3564
-    ],
-    "manual_verified": false
+      37.27596,
+      138.39274
+    ]
   },
   {
     "id": "daidaigiku-jozo",
@@ -855,10 +905,9 @@
     "desc": "Sake brewery in Joetsu (Kubiki), Niigata.",
     "links": [],
     "manual": [
-      37.1158,
-      138.3619
-    ],
-    "manual_verified": false
+      37.25491,
+      138.39998
+    ]
   },
   {
     "id": "koyama-shuzoten",
@@ -872,27 +921,9 @@
     "desc": "Sake brewery in Joetsu (Sanwa), Niigata.",
     "links": [],
     "manual": [
-      37.1706,
-      138.3375
-    ],
-    "manual_verified": false
-  },
-  {
-    "id": "fujinawa-shuzo",
-    "name": "Fujinawa Shuzo",
-    "name_ja": "藤縄酒造",
-    "category": "sake",
-    "area": "joetsu",
-    "search": [
-      "藤縄酒造"
-    ],
-    "desc": "Sake brewery in Joetsu (Ogata), Niigata.",
-    "links": [],
-    "manual": [
-      37.2269,
-      138.3242
-    ],
-    "manual_verified": false
+      37.22845,
+      138.32556
+    ]
   },
   {
     "id": "asahi-shuzo",
@@ -906,10 +937,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.3694,
-      138.8354
-    ],
-    "manual_verified": false
+      37.39698,
+      138.77464
+    ]
   },
   {
     "id": "yoshinogawa",
@@ -923,10 +953,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.4267,
-      138.8528
-    ],
-    "manual_verified": false
+      37.41634,
+      138.84102
+    ]
   },
   {
     "id": "morohashi-shuzo",
@@ -940,10 +969,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata, known for the Koshino Kagetora brand.",
     "links": [],
     "manual": [
-      37.4772,
-      138.995
-    ],
-    "manual_verified": false
+      37.45557,
+      138.97949
+    ]
   },
   {
     "id": "kawachu-shuzo",
@@ -957,10 +985,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.3241,
-      138.749
-    ],
-    "manual_verified": false
+      37.50335,
+      138.7846
+    ]
   },
   {
     "id": "hakuro-shuzo",
@@ -974,10 +1001,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.445,
-      138.8681
-    ],
-    "manual_verified": false
+      37.38939,
+      138.83369
+    ]
   },
   {
     "id": "hasegawa-shuzo",
@@ -991,10 +1017,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.4278,
-      138.8519
-    ],
-    "manual_verified": false
+      37.41278,
+      138.84514
+    ]
   },
   {
     "id": "ofuku-shuzo",
@@ -1008,10 +1033,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.4691,
-      138.8361
-    ],
-    "manual_verified": false
+      37.40315,
+      138.85196
+    ]
   },
   {
     "id": "hara-shuzo",
@@ -1025,10 +1049,9 @@
     "desc": "Sake brewery in Kashiwazaki, Niigata, known for the Koshi no Homare brand.",
     "links": [],
     "manual": [
-      37.3621,
-      138.5601
-    ],
-    "manual_verified": false
+      37.36664,
+      138.55133
+    ]
   },
   {
     "id": "ikeura-shuzo",
@@ -1042,10 +1065,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.3005,
-      138.7214
-    ],
-    "manual_verified": false
+      37.57488,
+      138.74188
+    ]
   },
   {
     "id": "nakagawa-shuzo",
@@ -1059,10 +1081,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.4328,
-      138.8611
-    ],
-    "manual_verified": false
+      37.49978,
+      138.7826
+    ]
   },
   {
     "id": "takahashi-shuzo",
@@ -1076,27 +1097,25 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.3553,
-      138.7758
-    ],
-    "manual_verified": false
+      37.45913,
+      138.86486
+    ]
   },
   {
     "id": "asatsuma-shuzo",
     "name": "Asatsuma Shuzo",
     "name_ja": "朝妻酒造",
     "category": "sake",
-    "area": "nagaoka",
+    "area": "niigata",
     "search": [
       "朝妻酒造"
     ],
-    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata.",
     "links": [],
     "manual": [
-      37.4475,
-      138.8612
-    ],
-    "manual_verified": false
+      37.79623,
+      138.91671
+    ]
   },
   {
     "id": "hozan-shuzo",
@@ -1110,10 +1129,9 @@
     "desc": "Sake brewery in Niigata City (Nishi-Kan), Niigata.",
     "links": [],
     "manual": [
-      37.7275,
-      138.922
-    ],
-    "manual_verified": false
+      37.72483,
+      138.83869
+    ]
   },
   {
     "id": "uonuma-shuzo",
@@ -1127,10 +1145,9 @@
     "desc": "Sake brewery in Tokamachi, Niigata.",
     "links": [],
     "manual": [
-      37.1294,
-      138.7428
-    ],
-    "manual_verified": false
+      37.15091,
+      138.77395
+    ]
   },
   {
     "id": "naeba-shuzo",
@@ -1144,10 +1161,9 @@
     "desc": "Sake brewery in Tsunan, Niigata.",
     "links": [],
     "manual": [
-      37.0189,
-      138.6536
-    ],
-    "manual_verified": false
+      37.01397,
+      138.65151
+    ]
   },
   {
     "id": "tsunan-jozo",
@@ -1161,10 +1177,9 @@
     "desc": "Sake brewery in Tsunan, Niigata.",
     "links": [],
     "manual": [
-      36.9981,
-      138.675
-    ],
-    "manual_verified": false
+      36.96727,
+      138.67201
+    ]
   },
   {
     "id": "tamagawa-shuzo",
@@ -1178,10 +1193,9 @@
     "desc": "Sake brewery in Uonuma, Niigata.",
     "links": [],
     "manual": [
-      37.2886,
-      139.0208
-    ],
-    "manual_verified": false
+      37.32398,
+      139.01884
+    ]
   },
   {
     "id": "takanoi-shuzo",
@@ -1195,10 +1209,9 @@
     "desc": "Sake brewery in Ojiya, Niigata.",
     "links": [],
     "manual": [
-      37.3197,
-      138.8028
-    ],
-    "manual_verified": false
+      37.31409,
+      138.81251
+    ]
   },
   {
     "id": "masukagami",
@@ -1212,10 +1225,9 @@
     "desc": "Sake brewery in Kamo, Niigata.",
     "links": [],
     "manual": [
-      37.6631,
-      139.0436
-    ],
-    "manual_verified": false
+      37.65658,
+      139.06415
+    ]
   },
   {
     "id": "yukitsubaki-shuzo",
@@ -1229,10 +1241,9 @@
     "desc": "Sake brewery in Kamo, Niigata.",
     "links": [],
     "manual": [
-      37.6617,
-      139.04
-    ],
-    "manual_verified": false
+      37.6584,
+      139.05679
+    ]
   },
   {
     "id": "fukugao-shuzo",
@@ -1246,10 +1257,9 @@
     "desc": "Sake brewery in Sanjo, Niigata.",
     "links": [],
     "manual": [
-      37.6331,
-      138.9664
-    ],
-    "manual_verified": false
+      37.62905,
+      138.96423
+    ]
   },
   {
     "id": "onda-shuzo",
@@ -1263,10 +1273,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.525,
-      138.7733
-    ],
-    "manual_verified": false
+      37.35884,
+      138.83455
+    ]
   },
   {
     "id": "sekihara-shuzo",
@@ -1280,10 +1289,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "manual": [
-      37.4331,
-      138.8011
-    ],
-    "manual_verified": false
+      37.45332,
+      138.77501
+    ]
   },
   {
     "id": "naspa",
@@ -1303,9 +1311,9 @@
         "affiliate": true
       }
     ],
-    "approx": [
-      36.9328,
-      138.8314
+    "manual": [
+      36.927,
+      138.80906
     ]
   },
   {
@@ -1325,9 +1333,9 @@
         "affiliate": true
       }
     ],
-    "approx": [
-      36.9536,
-      138.8089
+    "manual": [
+      36.92508,
+      138.85971
     ]
   },
   {
@@ -1370,9 +1378,9 @@
         "affiliate": true
       }
     ],
-    "approx": [
-      37.2289,
-      138.9567
+    "manual": [
+      37.22825,
+      138.95518
     ]
   },
   {
@@ -1392,9 +1400,9 @@
         "affiliate": true
       }
     ],
-    "approx": [
-      37.135,
-      138.5992
+    "manual": [
+      37.05237,
+      138.59757
     ]
   },
   {
@@ -1415,9 +1423,9 @@
         "affiliate": true
       }
     ],
-    "approx": [
-      36.8903,
-      138.2436
+    "manual": [
+      36.90611,
+      138.16089
     ]
   },
   {
@@ -1438,9 +1446,9 @@
         "affiliate": true
       }
     ],
-    "approx": [
-      36.8833,
-      138.2458
+    "manual": [
+      36.91204,
+      138.16819
     ]
   },
   {
@@ -1482,9 +1490,9 @@
         "affiliate": true
       }
     ],
-    "approx": [
-      37.1192,
-      138.2547
+    "manual": [
+      37.1042,
+      138.22498
     ]
   },
   {
@@ -1505,9 +1513,9 @@
         "affiliate": true
       }
     ],
-    "approx": [
-      36.98,
-      137.9942
+    "manual": [
+      37.00354,
+      138.07061
     ]
   },
   {
@@ -1536,7 +1544,11 @@
       "大洋酒造"
     ],
     "desc": "Sake brewery in Murakami, Niigata (brand: 大洋盛).",
-    "links": []
+    "links": [],
+    "manual": [
+      38.21999,
+      139.4771
+    ]
   },
   {
     "id": "ohmon-shuzo",
@@ -1807,6 +1819,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      38.39017,
+      139.55461
     ]
   },
   {
@@ -1825,6 +1841,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      38.01694,
+      139.50235
     ]
   },
   {
@@ -1843,6 +1863,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      37.92697,
+      139.46795
     ]
   },
   {
@@ -1861,6 +1885,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      37.72087,
+      139.39334
     ]
   },
   {
@@ -1880,6 +1908,10 @@
         "url": "https://klook.tpo.li/h1LXkD56",
         "affiliate": true
       }
+    ],
+    "manual": [
+      38.07668,
+      138.34987
     ]
   }
 ]
