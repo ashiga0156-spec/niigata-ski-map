@@ -259,6 +259,8 @@ def nominatim(place):
         if d <= MAX_DIST_KM:
             text = r.get("display_name", "")
             hit = any(l in text for l in place["search"])
+            if not hit:
+                continue  # wrong place with a similar name: skip
             return {"ref": "nominatim/%s" % r.get("osm_id"), "name": text.split(",")[0],
                     "lat": float(r["lat"]), "lon": float(r["lon"]), "dist": d,
                     "score": VERIFIED_SCORE if hit else 0}
@@ -292,6 +294,13 @@ def build(places, elements, errors=None, extra=None):
         if p["category"] in errors and not (extra and p["id"] in extra):
             stats["missing"] += 1
             lines.append("| %s | ERROR | %s |" % (p["id"], errors[p["category"]]))
+            continue
+        if p.get("manual"):
+            mlat, mlon = p["manual"]
+            stats["ok"] += 1
+            resolved[p["id"]] = (mlat, mlon)
+            lines.append("| %s | manual coordinates | from places.json |" % p["id"])
+            pins.append(make_pin(p, mlat, mlon, p.get("manual_verified", True), "manual"))
             continue
         best, n = match_place(p, elements.get(p["category"], []))
         if not best and extra and p["id"] in extra:
@@ -333,7 +342,7 @@ def main():
     placed_ids = {x["id"] for x in pins}
     extra = {}
     for p in places:
-        if p["id"] in placed_ids or p.get("coords_from"):
+        if p["id"] in placed_ids or p.get("coords_from") or p.get("manual"):
             continue
         log("Nominatim fallback: %s" % p["id"])
         r = nominatim(p)
