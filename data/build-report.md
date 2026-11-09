@@ -1,6 +1,6 @@
 # Pin build report
 
-Placed 82 of 82 places. OK: 81, to check: 0, missing: 0, copied: 1.
+Placed 97 of 107 places. OK: 93, to check: 3, missing: 10, copied: 1.
 
 | id | match | detail |
 |---|---|---|
@@ -85,4 +85,29 @@ Placed 82 of 82 places. OK: 81, to check: 0, missing: 0, copied: 1.
 | cupid-valley | manual coordinates | from places.json |
 | kanayasan | 金谷山スキー場 (way/1469699107) | score 12, 5.4 km from anchor, 1 candidates |
 | charmant-hiuchi | シャルマン火打 (way/349679854) | score 19, 19.2 km from anchor, 1 candidates |
+| miyao-shuzo | not found in OSM | skipped |
+| taiyo-shuzo | 大洋酒造 (nominatim/656887031) | score 6, 0.3 km from anchor, 0 candidates |
+| ohmon-shuzo | 王紋酒造 (way/584896066) | score 7, 0.7 km from anchor, 1 candidates |
+| kikusui-shuzo | not found in OSM | skipped |
+| dhc-shuzo | not found in OSM | skipped |
+| imayotsukasa | 今代司酒造 (way/760886897) | score 5, 1.2 km from anchor, 1 candidates **CHECK** |
+| ishimoto-shuzo | 石本酒造 (nominatim/744674912) | score 6, 6.5 km from anchor, 0 candidates |
+| murayu-shuzo | not found in OSM | skipped |
+| minenohakubai | 峰乃白梅酒造 (nominatim/14311561068) | score 6, 25.9 km from anchor, 0 candidates **CHECK** |
+| echigo-tsurukame | 越後鶴亀 (nominatim/1567847455) | score 6, 23.3 km from anchor, 0 candidates |
+| sasaiwai-shuzo | 笹祝酒造(株) (nominatim/14179705133) | score 6, 20.8 km from anchor, 0 candidates |
+| kondo-shuzo | not found in OSM | skipped |
+| kinshihai-shuzo | not found in OSM | skipped |
+| yahiko-shuzo | not found in OSM | skipped |
+| kirinzan-shuzo | 麒麟山酒造(株) (nominatim/455002115) | score 6, 0.9 km from anchor, 0 candidates |
+| obata-shuzo | 尾畑酒造 (way/1171662298) | score 8, 6.4 km from anchor, 1 candidates |
+| hemmi-shuzo | not found in OSM | skipped |
+| tenryohai-shuzo | 天領盃酒造 (way/686246040) | score 5, 9.2 km from anchor, 1 candidates **CHECK** |
+| hokusetsu-shuzo | not found in OSM | skipped |
+| kato-shuzoten | not found in OSM | skipped |
+| budo-snow-resort | ぶどうスノーリゾート (way/1458630488) | score 12, 19.9 km from anchor, 1 candidates |
+| tainai-ski | 胎内スキー場 (way/1208479993) | score 12, 10.5 km from anchor, 1 candidates |
+| ninox-snow-park | ニノックススノーパーク (way/1208479232) | score 12, 13.4 km from anchor, 1 candidates |
+| mikawa-onsen-ski | 三川温泉スキー場 (way/1208478420) | score 12, 6.4 km from anchor, 1 candidates |
+| sado-taira-ski | 佐渡市平スキー場 (way/1375474653) | score 12, 9.5 km from anchor, 1 candidates |
 | ponshukan | copied from echigo-yuzawa-station | offset slightly |
