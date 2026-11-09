@@ -36,6 +36,18 @@
     "source": "osm:way/948328123"
   },
   {
+    "id": "kandatsu",
+    "name": "Kandatsu Snow Resort",
+    "name_ja": "神立スノーリゾート",
+    "category": "ski",
+    "lat": 36.91131,
+    "lng": 138.81278,
+    "desc": "Ski area on the southeastern slope of Mt. Iiji, about 3 km from Echigo-Yuzawa Station.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
     "id": "yuzawa-nakazato",
     "name": "Yuzawa Nakazato Snow Resort",
     "name_ja": "湯沢中里スノーリゾート",
@@ -120,6 +132,18 @@
     "source": "osm:way/626857453"
   },
   {
+    "id": "muikamachi-hakkaisan",
+    "name": "Muikamachi Hakkaisan Ski Resort",
+    "name_ja": "六日町八海山スキー場",
+    "category": "ski",
+    "lat": 37.10804,
+    "lng": 138.97788,
+    "desc": "Ski resort on the slopes of Mt. Hakkai in Minamiuonuma.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
     "id": "akakura-kanko",
     "name": "Akakura Kanko Resort Ski Area",
     "name_ja": "赤倉観光リゾートスキー場",
@@ -166,6 +190,18 @@
     "links": [],
     "verified": true,
     "source": "osm:way/937086873"
+  },
+  {
+    "id": "lotte-arai",
+    "name": "Lotte Arai Resort",
+    "name_ja": "ロッテアライリゾート",
+    "category": "ski",
+    "lat": 36.99062,
+    "lng": 138.18128,
+    "desc": "Resort and ski area in Myoko.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
   },
   {
     "id": "shirataki",
@@ -216,16 +252,112 @@
     "source": "osm:nominatim/441137405"
   },
   {
+    "id": "aoki-shuzo",
+    "name": "Aoki Shuzo",
+    "name_ja": "青木酒造",
+    "category": "sake",
+    "lat": 37.0403,
+    "lng": 138.85038,
+    "desc": "One of the oldest breweries in the Minamiuonuma area, founded in 1717.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "takachiyo",
+    "name": "Takachiyo Shuzo",
+    "name_ja": "高千代酒造",
+    "category": "sake",
+    "lat": 37.01624,
+    "lng": 138.87845,
+    "desc": "Brewery at the foot of Mt. Makihata, known for dry sake. Brewery tours are not available.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "midorikawa",
+    "name": "Midorikawa Shuzo",
+    "name_ja": "緑川酒造",
+    "category": "sake",
+    "lat": 37.20977,
+    "lng": 138.95385,
+    "desc": "Brewery in Uonuma City, known for the Midorikawa brand.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
     "id": "myoko-shuzo",
     "name": "Myoko Shuzo",
     "name_ja": "妙高酒造",
     "category": "sake",
-    "lat": 37.01046,
-    "lng": 138.20794,
+    "lat": 37.10078,
+    "lng": 138.25111,
     "desc": "Joetsu brewery making Myokosan sake with water from Mt. Myoko. Brewery visits by prior consultation.",
     "links": [],
-    "verified": false,
-    "source": "osm:nominatim/1219927274"
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "musashino-shuzo",
+    "name": "Musashino Shuzo",
+    "name_ja": "武蔵野酒造",
+    "category": "sake",
+    "lat": 37.11701,
+    "lng": 138.24995,
+    "desc": "Brewery in Joetsu's Takada district, about a 10-minute walk from Takada Station.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "maruyama-shuzojo",
+    "name": "Maruyama Shuzojo (Setchubai)",
+    "name_ja": "丸山酒造場",
+    "category": "sake",
+    "lat": 37.14383,
+    "lng": 138.36161,
+    "desc": "Joetsu brewery known for the Setchubai brand. No brewery tours.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "yoshikawa-toji",
+    "name": "Yoshikawa Toji no Sato",
+    "name_ja": "よしかわ杜氏の郷",
+    "category": "sake",
+    "lat": 37.24192,
+    "lng": 138.37698,
+    "desc": "Brewery in Joetsu's Yoshikawa district producing Yoshikawa Toji sake.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "kiminoi",
+    "name": "Kiminoi Shuzo",
+    "name_ja": "君の井酒造",
+    "category": "sake",
+    "lat": 37.02907,
+    "lng": 138.25048,
+    "desc": "Brewery in Myoko City.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "ayumasamune",
+    "name": "Ayumasamune Shuzo",
+    "name_ja": "鮎正宗酒造",
+    "category": "sake",
+    "lat": 36.95506,
+    "lng": 138.27353,
+    "desc": "Brewery in Myoko City.",
+    "links": [],
+    "verified": true,
+    "source": "manual"
   },
   {
     "id": "chiyonohikari",
@@ -249,7 +381,7 @@
     "desc": "Shinkansen gateway to the Yuzawa ski areas, about 70 minutes from Tokyo Station at the fastest. Ponshukan sake tasting is inside the station.",
     "links": [],
     "verified": true,
-    "source": "osm:node/3548915150"
+    "source": "osm:nominatim/3548915150"
   },
   {
     "id": "echigo-nakazato-station",
@@ -261,7 +393,7 @@
     "desc": "Joetsu Line station close to the Yuzawa Nakazato ski area.",
     "links": [],
     "verified": true,
-    "source": "osm:node/264814993"
+    "source": "osm:nominatim/264814993"
   },
   {
     "id": "urasa-station",
@@ -273,55 +405,55 @@
     "desc": "Joetsu Shinkansen stop in Minamiuonuma.",
     "links": [],
     "verified": true,
-    "source": "osm:node/3548915157"
+    "source": "osm:nominatim/3548915157"
   },
   {
     "id": "muikamachi-station",
     "name": "Muikamachi Station",
     "name_ja": "六日町駅",
     "category": "access",
-    "lat": 37.0671,
-    "lng": 138.87594,
+    "lat": 37.06721,
+    "lng": 138.87573,
     "desc": "Joetsu Line station in Minamiuonuma. Shuttle buses to some local ski areas depart from here.",
     "links": [],
     "verified": true,
-    "source": "osm:node/3548915153"
+    "source": "osm:nominatim/13206332566"
   },
   {
     "id": "nagaoka-station",
     "name": "Nagaoka Station",
     "name_ja": "長岡駅",
     "category": "access",
-    "lat": 37.44788,
-    "lng": 138.85417,
+    "lat": 37.44786,
+    "lng": 138.85393,
     "desc": "Major Joetsu Shinkansen stop, with a Ponshukan sake shop.",
     "links": [],
     "verified": true,
-    "source": "osm:node/5574679639"
+    "source": "osm:nominatim/396353253"
   },
   {
     "id": "niigata-station",
     "name": "Niigata Station",
     "name_ja": "新潟駅",
     "category": "access",
-    "lat": 37.91224,
-    "lng": 139.06133,
+    "lat": 37.91197,
+    "lng": 139.0614,
     "desc": "Main station of Niigata City and the northern end of the Joetsu Shinkansen. A Ponshukan sake shop is here too.",
     "links": [],
     "verified": true,
-    "source": "osm:node/4087367885"
+    "source": "osm:nominatim/154083968"
   },
   {
     "id": "niigata-airport",
     "name": "Niigata Airport",
     "name_ja": "新潟空港",
     "category": "access",
-    "lat": 37.95452,
-    "lng": 139.10932,
+    "lat": 37.95442,
+    "lng": 139.11384,
     "desc": "Niigata's airport, on the coast near Niigata City.",
     "links": [],
     "verified": true,
-    "source": "osm:way/57007660"
+    "source": "osm:nominatim/57007660"
   },
   {
     "id": "joetsumyoko-station",
@@ -333,18 +465,18 @@
     "desc": "Hokuriku Shinkansen stop and the usual starting point for the Myoko area.",
     "links": [],
     "verified": true,
-    "source": "osm:node/4109702964"
+    "source": "osm:nominatim/4109702964"
   },
   {
     "id": "myoko-kogen-station",
     "name": "Myoko-Kogen Station",
     "name_ja": "妙高高原駅",
     "category": "access",
-    "lat": 36.8722,
-    "lng": 138.2122,
+    "lat": 36.87218,
+    "lng": 138.2118,
     "desc": "Station on the Echigo Tokimeki Railway (Myoko Haneuma Line) in the Myoko ski area. Buses run from here to Suginohara.",
     "links": [],
     "verified": true,
-    "source": "osm:node/4575781850"
+    "source": "osm:nominatim/7242961464"
   }
 ]
