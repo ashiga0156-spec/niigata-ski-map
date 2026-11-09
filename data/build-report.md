@@ -1,6 +1,6 @@
 # Pin build report
 
-Placed 82 of 82 places. OK: 79, to check: 2, missing: 0, copied: 1.
+Placed 82 of 82 places. OK: 81, to check: 0, missing: 0, copied: 1.
 
 | id | match | detail |
 |---|---|---|
@@ -21,9 +21,9 @@ Placed 82 of 82 places. OK: 79, to check: 2, missing: 0, copied: 1.
 | suginohara | 妙高杉ノ原スキー場 (way/937086872) | score 12, 22.0 km from anchor, 1 candidates |
 | ikenotaira | 池の平温泉アルペンブリックスキー場 (way/937086873) | score 12, 20.2 km from anchor, 1 candidates |
 | lotte-arai | manual coordinates | from places.json |
-| shirataki | kept from previous build | Overpass failed this time |
-| hakkaisan | kept from previous build | Overpass failed this time |
-| uonuma-no-sato | kept from previous build | Overpass failed this time |
+| shirataki | 白瀧酒造株式会社 (nominatim/845285004) | score 6, 0.6 km from anchor, 0 candidates |
+| hakkaisan | 八海醸造株式会社 (nominatim/1055578312) | score 6, 6.1 km from anchor, 0 candidates |
+| uonuma-no-sato | 魚沼の里 (nominatim/441137405) | score 6, 7.1 km from anchor, 0 candidates |
 | aoki-shuzo | manual coordinates | from places.json |
 | takachiyo | manual coordinates | from places.json |
 | midorikawa | manual coordinates | from places.json |
@@ -33,7 +33,7 @@ Placed 82 of 82 places. OK: 79, to check: 2, missing: 0, copied: 1.
 | yoshikawa-toji | manual coordinates | from places.json |
 | kiminoi | manual coordinates | from places.json |
 | ayumasamune | manual coordinates | from places.json |
-| chiyonohikari | kept from previous build | Overpass failed this time |
+| chiyonohikari | 千代の光酒造(株） (nominatim/1219927274) | score 6, 5.9 km from anchor, 0 candidates |
 | echigo-yuzawa-station | 越後湯沢 (node/3548915150) | score 19, 0.3 km from anchor, 1 candidates |
 | echigo-nakazato-station | 越後中里 (node/264814993) | score 19, 4.3 km from anchor, 1 candidates |
 | urasa-station | 浦佐 (node/3548915157) | score 19, 12.5 km from anchor, 1 candidates |
@@ -77,12 +77,12 @@ Placed 82 of 82 places. OK: 79, to check: 2, missing: 0, copied: 1.
 | sekihara-shuzo | manual coordinates | from places.json |
 | naspa | ナスパスキーガーデン (way/948360185) | score 12, 1.1 km from anchor, 1 candidates |
 | yuzawa-park | 湯沢パークスキー場 (way/949496196) | score 12, 4.5 km from anchor, 1 candidates |
-| okutadami-maruyama | 奥只見丸山スキー場 (way/233173940) | score 18, 25.8 km from anchor, 1 candidates **CHECK** |
+| okutadami-maruyama | manual coordinates | from places.json |
 | koide | 小出スキー場 (way/1201567796) | score 12, 0.9 km from anchor, 1 candidates |
 | matsunoyama-onsen | 松之山温泉スキー場 (way/1568989113) | score 12, 16.1 km from anchor, 1 candidates |
 | seki-onsen | 関温泉スキー場 (way/937100228) | score 12, 17.1 km from anchor, 1 candidates |
 | kyukamura-myoko | 休暇村妙高 ルンルンスキー場 (way/937100229) | score 12, 16.0 km from anchor, 1 candidates |
-| cupid-valley | キューピットバレイスキー場 (way/1458695224) | score 12, 25.2 km from anchor, 1 candidates **CHECK** |
+| cupid-valley | manual coordinates | from places.json |
 | kanayasan | 金谷山スキー場 (way/1469699107) | score 12, 5.4 km from anchor, 1 candidates |
 | charmant-hiuchi | シャルマン火打 (way/349679854) | score 19, 19.2 km from anchor, 1 candidates |
 | ponshukan | copied from echigo-yuzawa-station | offset slightly |
