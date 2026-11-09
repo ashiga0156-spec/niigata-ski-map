@@ -394,7 +394,9 @@
       "白瀧酒造"
     ],
     "desc": "Yuzawa brewery known for the Jozen Mizu no Gotoshi and Minatoya Tosuke brands. Winter brewery tours are offered by reservation; check the brewery's site.",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "ponshukan",
@@ -407,7 +409,9 @@
     ],
     "coords_from": "echigo-yuzawa-station",
     "desc": "Coin-operated sake tasting inside Echigo-Yuzawa Station, covering breweries from across Niigata. Easy to visit while changing trains.",
-    "links": []
+    "links": [],
+    "visit": "B",
+    "visit_note": "Shop with paid tasting bar covering Niigata breweries (about 500 yen)."
   },
   {
     "id": "hakkaisan",
@@ -419,7 +423,9 @@
       "八海醸造"
     ],
     "desc": "Maker of Hakkaisan sake, one of Niigata's best-known brands, in Minamiuonuma at the foot of Mt. Hakkai.",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "uonuma-no-sato",
@@ -431,7 +437,9 @@
       "魚沼の里"
     ],
     "desc": "Visitor complex run by Hakkaisan with shops, restaurants, a craft beer brewery and a snow storehouse. About 10 minutes by taxi from Itsukamachi Station.",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "aoki-shuzo",
@@ -447,7 +455,9 @@
     "manual": [
       37.0403,
       138.85038
-    ]
+    ],
+    "visit": "B",
+    "visit_note": "Shop only."
   },
   {
     "id": "takachiyo",
@@ -463,7 +473,9 @@
     "manual": [
       37.01624,
       138.87845
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "midorikawa",
@@ -479,7 +491,9 @@
     "manual": [
       37.20977,
       138.95385
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Tours limited to 4-5 people. Inquire first."
   },
   {
     "id": "myoko-shuzo",
@@ -495,7 +509,9 @@
     "manual": [
       37.10078,
       138.25111
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "musashino-shuzo",
@@ -511,7 +527,9 @@
     "manual": [
       37.11701,
       138.24995
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "maruyama-shuzojo",
@@ -527,7 +545,9 @@
     "manual": [
       37.14383,
       138.36161
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "yoshikawa-toji",
@@ -544,7 +564,9 @@
     "manual": [
       37.24192,
       138.37698
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Free tasting, no reservation. Closed Mondays; brewing visible Oct-Mar."
   },
   {
     "id": "kiminoi",
@@ -560,7 +582,9 @@
     "manual": [
       37.02907,
       138.25048
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "ayumasamune",
@@ -576,7 +600,9 @@
     "manual": [
       36.95506,
       138.27353
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "chiyonohikari",
@@ -588,7 +614,9 @@
       "千代の光酒造"
     ],
     "desc": "Brewery in Myoko City.",
-    "links": []
+    "links": [],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "echigo-yuzawa-station",
@@ -811,7 +839,9 @@
     "manual": [
       37.1942,
       138.1896
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "joetsu-shuzo",
@@ -827,7 +857,9 @@
     "manual": [
       37.09814,
       138.33544
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "kaga-no-i",
@@ -843,7 +875,9 @@
     "manual": [
       37.04544,
       137.85932
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "takeda-shuzoten",
@@ -859,7 +893,9 @@
     "manual": [
       37.21963,
       138.31313
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Seasonal tour (mid-Nov to Feb, afternoons), reservation required; small groups."
   },
   {
     "id": "niigata-daiichi-shuzo",
@@ -875,7 +911,9 @@
     "manual": [
       37.16326,
       138.41412
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "kubiki-shuzo",
@@ -891,7 +929,9 @@
     "manual": [
       37.27596,
       138.39274
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Tours not accepted."
   },
   {
     "id": "daidaigiku-jozo",
@@ -907,7 +947,9 @@
     "manual": [
       37.25491,
       138.39998
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Small-group tour (6-8 people) by reservation; tasting not confirmed."
   },
   {
     "id": "koyama-shuzoten",
@@ -923,7 +965,9 @@
     "manual": [
       37.22845,
       138.32556
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "asahi-shuzo",
@@ -939,7 +983,9 @@
     "manual": [
       37.39698,
       138.77464
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "20-min tour year-round; 60-min tour Oct-Apr, book ahead."
   },
   {
     "id": "yoshinogawa",
@@ -955,7 +1001,9 @@
     "manual": [
       37.41634,
       138.84102
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Paid tasting bar, no reservation (closed Tue). Tours and museum by reservation."
   },
   {
     "id": "morohashi-shuzo",
@@ -971,7 +1019,9 @@
     "manual": [
       37.45557,
       138.97949
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "kawachu-shuzo",
@@ -987,7 +1037,9 @@
     "manual": [
       37.50335,
       138.7846
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "hakuro-shuzo",
@@ -1003,7 +1055,9 @@
     "manual": [
       37.38939,
       138.83369
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "hasegawa-shuzo",
@@ -1019,7 +1073,9 @@
     "manual": [
       37.41278,
       138.84514
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "ofuku-shuzo",
@@ -1035,7 +1091,9 @@
     "manual": [
       37.40315,
       138.85196
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "hara-shuzo",
@@ -1051,7 +1109,9 @@
     "manual": [
       37.36664,
       138.55133
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Seasonal tour (Apr-Aug). Check with the brewery before visiting."
   },
   {
     "id": "ikeura-shuzo",
@@ -1067,7 +1127,9 @@
     "manual": [
       37.57488,
       138.74188
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "nakagawa-shuzo",
@@ -1083,7 +1145,9 @@
     "manual": [
       37.49978,
       138.7826
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Seasonal tour (mid-Jan to mid-Mar), reservation required; tasting not confirmed."
   },
   {
     "id": "takahashi-shuzo",
@@ -1099,7 +1163,9 @@
     "manual": [
       37.45913,
       138.86486
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Ownership changed (now Aoi Shuzo). Inquire first."
   },
   {
     "id": "asatsuma-shuzo",
@@ -1115,7 +1181,9 @@
     "manual": [
       37.79623,
       138.91671
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "hozan-shuzo",
@@ -1131,7 +1199,9 @@
     "manual": [
       37.72483,
       138.83869
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "uonuma-shuzo",
@@ -1147,7 +1217,9 @@
     "manual": [
       37.15091,
       138.77395
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "naeba-shuzo",
@@ -1163,7 +1235,9 @@
     "manual": [
       37.01397,
       138.65151
-    ]
+    ],
+    "visit": "B",
+    "visit_note": "Shop tasting of all varieties; tours off-season by prior inquiry. Closed Wed."
   },
   {
     "id": "tsunan-jozo",
@@ -1179,7 +1253,9 @@
     "manual": [
       36.96727,
       138.67201
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "tamagawa-shuzo",
@@ -1195,7 +1271,9 @@
     "manual": [
       37.32398,
       139.01884
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available (Yukigura-kan). Check with the brewery before visiting."
   },
   {
     "id": "takanoi-shuzo",
@@ -1211,7 +1289,9 @@
     "manual": [
       37.31409,
       138.81251
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "masukagami",
@@ -1227,7 +1307,9 @@
     "manual": [
       37.65658,
       139.06415
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "yukitsubaki-shuzo",
@@ -1243,7 +1325,9 @@
     "manual": [
       37.6584,
       139.05679
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "fukugao-shuzo",
@@ -1259,7 +1343,9 @@
     "manual": [
       37.62905,
       138.96423
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Tours not accepted."
   },
   {
     "id": "onda-shuzo",
@@ -1275,7 +1361,9 @@
     "manual": [
       37.35884,
       138.83455
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "sekihara-shuzo",
@@ -1291,7 +1379,9 @@
     "manual": [
       37.45332,
       138.77501
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "naspa",
@@ -1532,7 +1622,9 @@
     "manual": [
       38.27019,
       139.4863
-    ]
+    ],
+    "visit": "B",
+    "visit_note": "Shop only; no tasting."
   },
   {
     "id": "taiyo-shuzo",
@@ -1548,7 +1640,9 @@
     "manual": [
       38.21999,
       139.4771
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour by arrangement; exhibition hall needs no reservation."
   },
   {
     "id": "ohmon-shuzo",
@@ -1560,7 +1654,9 @@
       "王紋酒造"
     ],
     "desc": "Sake brewery in Shibata, Niigata (brand: 王紋).",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Seasonal tour. Check dates with the brewery before visiting."
   },
   {
     "id": "kikusui-shuzo",
@@ -1576,7 +1672,9 @@
     "manual": [
       37.9605,
       139.35424
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "dhc-shuzo",
@@ -1592,7 +1690,9 @@
     "manual": [
       37.91347,
       139.21891
-    ]
+    ],
+    "visit": "B",
+    "visit_note": "Shop only."
   },
   {
     "id": "imayotsukasa",
@@ -1604,7 +1704,9 @@
       "今代司"
     ],
     "desc": "Sake brewery in Niigata City (Chuo-ku), Niigata (brand: 今代司).",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "ishimoto-shuzo",
@@ -1616,7 +1718,9 @@
       "石本酒造"
     ],
     "desc": "Sake brewery in Niigata City (Konan-ku), Niigata (brand: 越乃寒梅).",
-    "links": []
+    "links": [],
+    "visit": "C",
+    "visit_note": "No brewery tours."
   },
   {
     "id": "murayu-shuzo",
@@ -1632,7 +1736,9 @@
     "manual": [
       37.7484,
       139.09306
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Tour by reservation (tasting not confirmed)."
   },
   {
     "id": "minenohakubai",
@@ -1644,7 +1750,9 @@
       "峰乃白梅"
     ],
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata (brand: 峰乃白梅).",
-    "links": []
+    "links": [],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "echigo-tsurukame",
@@ -1656,7 +1764,9 @@
       "越後鶴亀"
     ],
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata (brand: 越後鶴亀).",
-    "links": []
+    "links": [],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "sasaiwai-shuzo",
@@ -1668,7 +1778,9 @@
       "笹祝"
     ],
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata (brand: 笹祝).",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "kondo-shuzo",
@@ -1684,7 +1796,9 @@
     "manual": [
       37.73816,
       139.18122
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Seasonal tour (Oct-Mar, weekdays), reservation required; tasting not confirmed."
   },
   {
     "id": "kinshihai-shuzo",
@@ -1700,7 +1814,9 @@
     "manual": [
       37.69065,
       139.17591
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "yahiko-shuzo",
@@ -1716,7 +1832,9 @@
     "manual": [
       37.71345,
       138.83176
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "kirinzan-shuzo",
@@ -1728,7 +1846,9 @@
       "麒麟山"
     ],
     "desc": "Sake brewery in Aga, Niigata (brand: 麒麟山).",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Seasonal tour (early Jun-early Sep, designated days), reservation via official calendar; paid, with tasting."
   },
   {
     "id": "obata-shuzo",
@@ -1740,7 +1860,9 @@
       "尾畑酒造"
     ],
     "desc": "Sake brewery in Sado, Niigata (brand: 真野鶴).",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "hemmi-shuzo",
@@ -1756,7 +1878,9 @@
     "manual": [
       37.97377,
       138.34817
-    ]
+    ],
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "tenryohai-shuzo",
@@ -1768,7 +1892,9 @@
       "天領盃"
     ],
     "desc": "Sake brewery in Sado, Niigata (brand: 天領盃).",
-    "links": []
+    "links": [],
+    "visit": "A",
+    "visit_note": "Seasonal tour. Check dates with the brewery before visiting."
   },
   {
     "id": "hokusetsu-shuzo",
@@ -1784,7 +1910,9 @@
     "manual": [
       37.87084,
       138.41374
-    ]
+    ],
+    "visit": "A",
+    "visit_note": "Seasonal tour (May-Oct). Check with the brewery before visiting."
   },
   {
     "id": "kato-shuzoten",
@@ -1800,7 +1928,9 @@
     "manual": [
       38.0077,
       138.29016
-    ]
+    ],
+    "visit": "B",
+    "visit_note": "Shop only."
   },
   {
     "id": "budo-snow-resort",

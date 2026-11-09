@@ -315,7 +315,9 @@
     "desc": "Yuzawa brewery known for the Jozen Mizu no Gotoshi and Minatoya Tosuke brands. Winter brewery tours are offered by reservation; check the brewery's site.",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/845285004"
+    "source": "osm:nominatim/845285004",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "ponshukan",
@@ -327,7 +329,9 @@
     "desc": "Coin-operated sake tasting inside Echigo-Yuzawa Station, covering breweries from across Niigata. Easy to visit while changing trains.",
     "links": [],
     "verified": true,
-    "source": "copy:echigo-yuzawa-station"
+    "source": "copy:echigo-yuzawa-station",
+    "visit": "B",
+    "visit_note": "Shop with paid tasting bar covering Niigata breweries (about 500 yen)."
   },
   {
     "id": "hakkaisan",
@@ -339,7 +343,9 @@
     "desc": "Maker of Hakkaisan sake, one of Niigata's best-known brands, in Minamiuonuma at the foot of Mt. Hakkai.",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/1055578312"
+    "source": "osm:nominatim/1055578312",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "uonuma-no-sato",
@@ -351,7 +357,9 @@
     "desc": "Visitor complex run by Hakkaisan with shops, restaurants, a craft beer brewery and a snow storehouse. About 10 minutes by taxi from Itsukamachi Station.",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/441137405"
+    "source": "osm:nominatim/441137405",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "aoki-shuzo",
@@ -363,7 +371,9 @@
     "desc": "One of the oldest breweries in the Minamiuonuma area, founded in 1717.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "B",
+    "visit_note": "Shop only."
   },
   {
     "id": "takachiyo",
@@ -375,7 +385,9 @@
     "desc": "Brewery at the foot of Mt. Makihata, known for dry sake. Brewery tours are not available.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "midorikawa",
@@ -387,7 +399,9 @@
     "desc": "Brewery in Uonuma City, known for the Midorikawa brand.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Tours limited to 4-5 people. Inquire first."
   },
   {
     "id": "myoko-shuzo",
@@ -399,7 +413,9 @@
     "desc": "Joetsu brewery making Myokosan sake with water from Mt. Myoko. Brewery visits by prior consultation.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "musashino-shuzo",
@@ -411,7 +427,9 @@
     "desc": "Brewery in Joetsu's Takada district, about a 10-minute walk from Takada Station.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "maruyama-shuzojo",
@@ -423,7 +441,9 @@
     "desc": "Joetsu brewery known for the Setchubai brand. No brewery tours.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "yoshikawa-toji",
@@ -435,7 +455,9 @@
     "desc": "Brewery in Joetsu's Yoshikawa district producing Yoshikawa Toji sake.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Free tasting, no reservation. Closed Mondays; brewing visible Oct-Mar."
   },
   {
     "id": "kiminoi",
@@ -447,7 +469,9 @@
     "desc": "Brewery in Myoko City.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "ayumasamune",
@@ -459,7 +483,9 @@
     "desc": "Brewery in Myoko City.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "chiyonohikari",
@@ -471,7 +497,9 @@
     "desc": "Brewery in Myoko City.",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/1219927274"
+    "source": "osm:nominatim/1219927274",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "echigo-yuzawa-station",
@@ -690,7 +718,9 @@
     "desc": "Sake brewery in Joetsu, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "joetsu-shuzo",
@@ -702,7 +732,9 @@
     "desc": "Sake brewery in Joetsu (Yoshikawa), Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "kaga-no-i",
@@ -714,7 +746,9 @@
     "desc": "Sake brewery in Itoigawa, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "takeda-shuzoten",
@@ -726,7 +760,9 @@
     "desc": "Sake brewery in Joetsu (Kakizaki), Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Seasonal tour (mid-Nov to Feb, afternoons), reservation required; small groups."
   },
   {
     "id": "niigata-daiichi-shuzo",
@@ -738,7 +774,9 @@
     "desc": "Sake brewery in Joetsu (Uragawara), Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "kubiki-shuzo",
@@ -750,7 +788,9 @@
     "desc": "Sake brewery in Joetsu (Kakizaki), Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Tours not accepted."
   },
   {
     "id": "daidaigiku-jozo",
@@ -762,7 +802,9 @@
     "desc": "Sake brewery in Joetsu (Kubiki), Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Small-group tour (6-8 people) by reservation; tasting not confirmed."
   },
   {
     "id": "koyama-shuzoten",
@@ -774,7 +816,9 @@
     "desc": "Sake brewery in Joetsu (Sanwa), Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "asahi-shuzo",
@@ -786,7 +830,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "20-min tour year-round; 60-min tour Oct-Apr, book ahead."
   },
   {
     "id": "yoshinogawa",
@@ -798,7 +844,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Paid tasting bar, no reservation (closed Tue). Tours and museum by reservation."
   },
   {
     "id": "morohashi-shuzo",
@@ -810,7 +858,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata, known for the Koshino Kagetora brand.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "kawachu-shuzo",
@@ -822,7 +872,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "hakuro-shuzo",
@@ -834,7 +886,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "hasegawa-shuzo",
@@ -846,7 +900,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "ofuku-shuzo",
@@ -858,7 +914,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "hara-shuzo",
@@ -870,7 +928,9 @@
     "desc": "Sake brewery in Kashiwazaki, Niigata, known for the Koshi no Homare brand.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Seasonal tour (Apr-Aug). Check with the brewery before visiting."
   },
   {
     "id": "ikeura-shuzo",
@@ -882,7 +942,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "nakagawa-shuzo",
@@ -894,7 +956,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Seasonal tour (mid-Jan to mid-Mar), reservation required; tasting not confirmed."
   },
   {
     "id": "takahashi-shuzo",
@@ -906,7 +970,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Ownership changed (now Aoi Shuzo). Inquire first."
   },
   {
     "id": "asatsuma-shuzo",
@@ -918,7 +984,9 @@
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "hozan-shuzo",
@@ -930,7 +998,9 @@
     "desc": "Sake brewery in Niigata City (Nishi-Kan), Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "uonuma-shuzo",
@@ -942,7 +1012,9 @@
     "desc": "Sake brewery in Tokamachi, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "naeba-shuzo",
@@ -954,7 +1026,9 @@
     "desc": "Sake brewery in Tsunan, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "B",
+    "visit_note": "Shop tasting of all varieties; tours off-season by prior inquiry. Closed Wed."
   },
   {
     "id": "tsunan-jozo",
@@ -966,7 +1040,9 @@
     "desc": "Sake brewery in Tsunan, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "tamagawa-shuzo",
@@ -978,7 +1054,9 @@
     "desc": "Sake brewery in Uonuma, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available (Yukigura-kan). Check with the brewery before visiting."
   },
   {
     "id": "takanoi-shuzo",
@@ -990,7 +1068,9 @@
     "desc": "Sake brewery in Ojiya, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "masukagami",
@@ -1002,7 +1082,9 @@
     "desc": "Sake brewery in Kamo, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "yukitsubaki-shuzo",
@@ -1014,7 +1096,9 @@
     "desc": "Sake brewery in Kamo, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "fukugao-shuzo",
@@ -1026,7 +1110,9 @@
     "desc": "Sake brewery in Sanjo, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Tours not accepted."
   },
   {
     "id": "onda-shuzo",
@@ -1038,7 +1124,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "sekihara-shuzo",
@@ -1050,7 +1138,9 @@
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "naspa",
@@ -1242,7 +1332,9 @@
     "desc": "Sake brewery in Murakami, Niigata (brand: 〆張鶴).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "B",
+    "visit_note": "Shop only; no tasting."
   },
   {
     "id": "taiyo-shuzo",
@@ -1254,7 +1346,9 @@
     "desc": "Sake brewery in Murakami, Niigata (brand: 大洋盛).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour by arrangement; exhibition hall needs no reservation."
   },
   {
     "id": "ohmon-shuzo",
@@ -1266,7 +1360,9 @@
     "desc": "Sake brewery in Shibata, Niigata (brand: 王紋).",
     "links": [],
     "verified": true,
-    "source": "osm:way/584896066"
+    "source": "osm:way/584896066",
+    "visit": "A",
+    "visit_note": "Seasonal tour. Check dates with the brewery before visiting."
   },
   {
     "id": "kikusui-shuzo",
@@ -1278,7 +1374,9 @@
     "desc": "Sake brewery in Shibata, Niigata (brand: 菊水).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "dhc-shuzo",
@@ -1290,7 +1388,9 @@
     "desc": "Sake brewery in Niigata City (Kita-ku), Niigata (brand: 嘉山).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "B",
+    "visit_note": "Shop only."
   },
   {
     "id": "imayotsukasa",
@@ -1302,7 +1402,9 @@
     "desc": "Sake brewery in Niigata City (Chuo-ku), Niigata (brand: 今代司).",
     "links": [],
     "verified": false,
-    "source": "osm:way/760886897"
+    "source": "osm:way/760886897",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "ishimoto-shuzo",
@@ -1314,7 +1416,9 @@
     "desc": "Sake brewery in Niigata City (Konan-ku), Niigata (brand: 越乃寒梅).",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/744674912"
+    "source": "osm:nominatim/744674912",
+    "visit": "C",
+    "visit_note": "No brewery tours."
   },
   {
     "id": "murayu-shuzo",
@@ -1326,7 +1430,9 @@
     "desc": "Sake brewery in Niigata City (Akiha-ku), Niigata (brand: 花越路).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Tour by reservation (tasting not confirmed)."
   },
   {
     "id": "minenohakubai",
@@ -1338,7 +1444,9 @@
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata (brand: 峰乃白梅).",
     "links": [],
     "verified": false,
-    "source": "osm:nominatim/14311561068"
+    "source": "osm:nominatim/14311561068",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "echigo-tsurukame",
@@ -1350,7 +1458,9 @@
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata (brand: 越後鶴亀).",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/1567847455"
+    "source": "osm:nominatim/1567847455",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "sasaiwai-shuzo",
@@ -1362,7 +1472,9 @@
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata (brand: 笹祝).",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/14179705133"
+    "source": "osm:nominatim/14179705133",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "kondo-shuzo",
@@ -1374,7 +1486,9 @@
     "desc": "Sake brewery in Gosen, Niigata (brand: 越乃鹿六).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Seasonal tour (Oct-Mar, weekdays), reservation required; tasting not confirmed."
   },
   {
     "id": "kinshihai-shuzo",
@@ -1386,7 +1500,9 @@
     "desc": "Sake brewery in Gosen, Niigata (brand: 越後杜氏).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "yahiko-shuzo",
@@ -1398,7 +1514,9 @@
     "desc": "Sake brewery in Yahiko, Niigata (brand: 彌彦).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "kirinzan-shuzo",
@@ -1410,7 +1528,9 @@
     "desc": "Sake brewery in Aga, Niigata (brand: 麒麟山).",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/455002115"
+    "source": "osm:nominatim/455002115",
+    "visit": "A",
+    "visit_note": "Seasonal tour (early Jun-early Sep, designated days), reservation via official calendar; paid, with tasting."
   },
   {
     "id": "obata-shuzo",
@@ -1422,7 +1542,9 @@
     "desc": "Sake brewery in Sado, Niigata (brand: 真野鶴).",
     "links": [],
     "verified": true,
-    "source": "osm:way/1171662298"
+    "source": "osm:way/1171662298",
+    "visit": "A",
+    "visit_note": "Tour and tasting available. Check with the brewery before visiting."
   },
   {
     "id": "hemmi-shuzo",
@@ -1434,7 +1556,9 @@
     "desc": "Sake brewery in Sado, Niigata (brand: 真稜).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "C",
+    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
   },
   {
     "id": "tenryohai-shuzo",
@@ -1446,7 +1570,9 @@
     "desc": "Sake brewery in Sado, Niigata (brand: 天領盃).",
     "links": [],
     "verified": false,
-    "source": "osm:way/686246040"
+    "source": "osm:way/686246040",
+    "visit": "A",
+    "visit_note": "Seasonal tour. Check dates with the brewery before visiting."
   },
   {
     "id": "hokusetsu-shuzo",
@@ -1458,7 +1584,9 @@
     "desc": "Sake brewery in Sado, Niigata (brand: 北雪).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "A",
+    "visit_note": "Seasonal tour (May-Oct). Check with the brewery before visiting."
   },
   {
     "id": "kato-shuzoten",
@@ -1470,7 +1598,9 @@
     "desc": "Sake brewery in Sado, Niigata (brand: 金鶴).",
     "links": [],
     "verified": true,
-    "source": "manual"
+    "source": "manual",
+    "visit": "B",
+    "visit_note": "Shop only."
   },
   {
     "id": "budo-snow-resort",

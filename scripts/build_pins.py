@@ -281,7 +281,7 @@ def nominatim(place):
 
 
 def make_pin(p, lat, lon, verified, source):
-    return {
+    pin = {
         "id": p["id"],
         "name": p["name"],
         "name_ja": p.get("name_ja", ""),
@@ -293,6 +293,10 @@ def make_pin(p, lat, lon, verified, source):
         "verified": bool(verified),
         "source": source,
     }
+    if p.get("visit"):
+        pin["visit"] = p["visit"]
+        pin["visit_note"] = p.get("visit_note", "")
+    return pin
 
 
 def build(places, elements, errors=None, extra=None, use_approx=False, previous=None):
@@ -320,6 +324,9 @@ def build(places, elements, errors=None, extra=None, use_approx=False, previous=
             old = dict(old)
             old["desc"] = p.get("desc", old.get("desc", ""))
             old["links"] = p.get("links", old.get("links", []))
+            if p.get("visit"):
+                old["visit"] = p["visit"]
+                old["visit_note"] = p.get("visit_note", "")
             pins.append(old)
             continue
         if p["category"] in errors and not (extra and p["id"] in extra) and not (use_approx and p.get("approx")):

@@ -62,6 +62,10 @@ body {
 .pin.ski { background: var(--ski); }
 .pin.sake { background: var(--sake); }
 .pin.access { background: var(--access); }
+/* Sake pins: A (tour + tasting) stands out, B/C are smaller and muted. */
+.pin.sake.visit-A { border-width: 3px; box-shadow: 0 0 0 2px var(--sake), 0 2px 6px rgba(0,0,0,.5); }
+.pin.sake.visit-B, .pin.sake.visit-C { border-width: 1px; opacity: .75; }
+.pin.sake.visit-C { background: #b9a98f; }
 
 .popup h3 { margin: 0 0 2px; font-size: 15px; }
 .popup .ja { color: #666; font-size: 12px; margin-bottom: 6px; }
@@ -75,4 +79,15 @@ body {
   border-radius: 6px;
   font-size: 12px;
 }
+.popup .visit { margin: 0 0 8px; }
+.popup .visit .badge {
+  display: inline-block; padding: 2px 8px; border-radius: 999px;
+  font-size: 11px; font-weight: 700; color: #fff; background: #8a8f98;
+}
+.popup .visit-A .badge { background: #2f9e6b; font-size: 12px; }
+.popup .visit-B .badge { background: #6b7a8c; }
+.popup .visit-C .badge { background: #a89c86; }
+.popup .visit .note { display: block; margin-top: 4px; font-size: 12px; color: #444; line-height: 1.4; }
+.chip-tours { border-style: dashed; }
+.chip-tours[aria-pressed="true"] { border-style: solid; background: #2f9e6b; border-color: #2f9e6b; color: #fff; font-weight: 600; }
 .popup .warn { color: #a15c00; font-size: 11px; margin-top: 6px; }

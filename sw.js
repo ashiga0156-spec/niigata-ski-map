@@ -1,5 +1,5 @@
 // Bump VERSION whenever app files change so users get the update.
-var VERSION = 'v3';
+var VERSION = 'v4';
 var SHELL = 'shell-' + VERSION;
 var TILES = 'tiles-v1';
 var MAX_TILES = 400;
@@ -18,6 +18,9 @@ var SHELL_FILES = [
   'icons/icon-512.png',
   'vendor/leaflet/leaflet.js',
   'vendor/leaflet/leaflet.css',
+  'vendor/leaflet.markercluster/leaflet.markercluster.js',
+  'vendor/leaflet.markercluster/MarkerCluster.css',
+  'vendor/leaflet.markercluster/MarkerCluster.Default.css',
   'vendor/leaflet/images/marker-icon.png',
   'vendor/leaflet/images/marker-icon-2x.png',
   'vendor/leaflet/images/marker-shadow.png',
