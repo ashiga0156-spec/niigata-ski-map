@@ -30,7 +30,7 @@ ENDPOINTS = [
 ]
 
 # south, west, north, east: Joetsu/Myoko, Yuzawa, Nagaoka and Niigata City.
-BBOX = (36.55, 137.95, 38.05, 139.45)
+BBOX = (36.55, 137.95, 38.65, 139.65)
 
 # Rough town centres, used to break ties between places that share a name.
 ANCHORS = {
@@ -48,6 +48,13 @@ ANCHORS = {
     "ojiya": (37.3100, 138.8000),
     "kamo": (37.6600, 139.0400),
     "sanjo": (37.6300, 138.9600),
+    "murakami": (38.2200, 139.4800),
+    "shibata": (37.9500, 139.3300),
+    "gosen": (37.7300, 139.1900),
+    "yahiko": (37.7000, 138.8300),
+    "aga": (37.6800, 139.4500),
+    "tainai": (38.0500, 139.4000),
+    "sado": (38.0000, 138.4000),
 }
 
 MAX_DIST_KM = 30.0       # farther than this from the anchor: reject
