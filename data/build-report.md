@@ -1,6 +1,6 @@
 # Pin build report
 
-Placed 40 of 40 places. OK: 39, to check: 0, missing: 0, copied: 1.
+Placed 31 of 72 places. OK: 30, to check: 0, missing: 41, copied: 1.
 
 | id | match | detail |
 |---|---|---|
@@ -24,23 +24,55 @@ Placed 40 of 40 places. OK: 39, to check: 0, missing: 0, copied: 1.
 | shirataki | 白瀧酒造株式会社 (nominatim/845285004) | score 6, 0.6 km from anchor, 0 candidates |
 | hakkaisan | 八海醸造株式会社 (nominatim/1055578312) | score 6, 6.1 km from anchor, 0 candidates |
 | uonuma-no-sato | 魚沼の里 (nominatim/441137405) | score 6, 7.1 km from anchor, 0 candidates |
-| aoki-shuzo | manual coordinates | from places.json |
-| takachiyo | manual coordinates | from places.json |
-| midorikawa | manual coordinates | from places.json |
-| myoko-shuzo | manual coordinates | from places.json |
-| musashino-shuzo | manual coordinates | from places.json |
-| maruyama-shuzojo | manual coordinates | from places.json |
-| yoshikawa-toji | manual coordinates | from places.json |
-| kiminoi | manual coordinates | from places.json |
-| ayumasamune | manual coordinates | from places.json |
+| aoki-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| takachiyo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| midorikawa | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| myoko-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| musashino-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| maruyama-shuzojo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| yoshikawa-toji | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| kiminoi | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| ayumasamune | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
 | chiyonohikari | 千代の光酒造(株） (nominatim/1219927274) | score 6, 5.9 km from anchor, 0 candidates |
-| echigo-yuzawa-station | 越後湯沢 (nominatim/3548915150) | score 6, 0.3 km from anchor, 0 candidates |
-| echigo-nakazato-station | 越後中里 (nominatim/264814993) | score 6, 4.3 km from anchor, 0 candidates |
-| urasa-station | 浦佐 (nominatim/3548915157) | score 6, 12.5 km from anchor, 0 candidates |
-| muikamachi-station | 六日町 (nominatim/13206332566) | score 6, 0.9 km from anchor, 0 candidates |
-| nagaoka-station | 長岡駅 (nominatim/396353253) | score 6, 0.4 km from anchor, 0 candidates |
-| niigata-station | 新潟駅 (nominatim/154083968) | score 6, 0.3 km from anchor, 0 candidates |
-| niigata-airport | 新潟空港 (nominatim/57007660) | score 6, 6.8 km from anchor, 0 candidates |
-| joetsumyoko-station | 上越妙高 (nominatim/4109702964) | score 6, 7.7 km from anchor, 0 candidates |
-| myoko-kogen-station | 妙高高原駅 (nominatim/7242961464) | score 6, 18.3 km from anchor, 0 candidates |
+| echigo-yuzawa-station | 越後湯沢 (node/3548915150) | score 19, 0.3 km from anchor, 1 candidates |
+| echigo-nakazato-station | 越後中里 (node/264814993) | score 19, 4.3 km from anchor, 1 candidates |
+| urasa-station | 浦佐 (node/3548915157) | score 19, 12.5 km from anchor, 1 candidates |
+| muikamachi-station | 六日町 (node/3548915153) | score 19, 0.9 km from anchor, 2 candidates |
+| nagaoka-station | 長岡 (node/5574679639) | score 13, 0.4 km from anchor, 1 candidates |
+| niigata-station | 新潟 (node/4087367885) | score 19, 0.3 km from anchor, 1 candidates |
+| niigata-airport | 新潟空港 (way/57007660) | score 13, 6.6 km from anchor, 1 candidates |
+| joetsumyoko-station | 上越妙高 (node/4109702964) | score 19, 7.7 km from anchor, 2 candidates |
+| myoko-kogen-station | 妙高高原 (node/4575781850) | score 19, 18.3 km from anchor, 1 candidates |
+| tanaka-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| joetsu-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| kaga-no-i | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| takeda-shuzoten | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| niigata-daiichi-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| kubiki-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| daidaigiku-jozo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| koyama-shuzoten | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| fujinawa-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| asahi-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| yoshinogawa | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| morohashi-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| kawachu-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| hakuro-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| hasegawa-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| ofuku-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| hara-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| ikeura-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| nakagawa-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| takahashi-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| asatsuma-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| hozan-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| uonuma-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| naeba-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| tsunan-jozo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| tamagawa-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| takanoi-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| masukagami | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| yukitsubaki-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| fukugao-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| onda-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
+| sekihara-shuzo | ERROR | Overpass failed: HTTP Error 502: Bad Gateway |
 | ponshukan | copied from echigo-yuzawa-station | offset slightly |
