@@ -1,25 +1,25 @@
 # Pin build report
 
-Placed 97 of 107 places. OK: 93, to check: 3, missing: 10, copied: 1.
+Placed 106 of 106 places. OK: 102, to check: 3, missing: 0, copied: 1.
 
 | id | match | detail |
 |---|---|---|
-| naeba | 苗場スキー場 (way/952129313) | score 15, 15.9 km from anchor, 1 candidates |
-| kagura | かぐらスキー場 (relation/12821614) | score 15, 9.3 km from anchor, 2 candidates |
-| gala-yuzawa | ガーラ湯沢スノーリゾート (way/948328123) | score 12, 2.9 km from anchor, 1 candidates |
+| naeba | manual coordinates | from places.json |
+| kagura | manual coordinates | from places.json |
+| gala-yuzawa | manual coordinates | from places.json |
 | kandatsu | manual coordinates | from places.json |
-| yuzawa-nakazato | 湯沢中里スキーリゾート (way/680041845) | score 12, 4.6 km from anchor, 2 candidates |
-| iwappara | 岩原スキー場 (way/680045685) | score 15, 3.1 km from anchor, 1 candidates |
-| yuzawa-kogen | 湯沢高原スキー場 (way/948328283) | score 12, 1.4 km from anchor, 1 candidates |
-| joetsu-kokusai | 上越国際 (way/949500907) | score 13, 11.0 km from anchor, 1 candidates |
-| ishiuchi-maruyama | 石打丸山スキー場 (way/464023310) | score 12, 12.6 km from anchor, 1 candidates |
-| maiko | 舞子スノーリゾート (way/679253285) | score 15, 10.3 km from anchor, 1 candidates |
-| muika | ムイカスノーリゾート (way/626857453) | score 12, 4.0 km from anchor, 1 candidates |
+| yuzawa-nakazato | manual coordinates | from places.json |
+| iwappara | manual coordinates | from places.json |
+| yuzawa-kogen | manual coordinates | from places.json |
+| joetsu-kokusai | manual coordinates | from places.json |
+| ishiuchi-maruyama | manual coordinates | from places.json |
+| maiko | manual coordinates | from places.json |
+| muika | manual coordinates | from places.json |
 | muikamachi-hakkaisan | manual coordinates | from places.json |
-| akakura-kanko | 赤倉観光リゾートスキー場 (way/937100226) | score 12, 18.4 km from anchor, 1 candidates |
-| akakura-onsen | 赤倉温泉スキー場 (way/937100227) | score 15, 17.3 km from anchor, 1 candidates |
-| suginohara | 妙高杉ノ原スキー場 (way/937086872) | score 12, 22.0 km from anchor, 1 candidates |
-| ikenotaira | 池の平温泉アルペンブリックスキー場 (way/937086873) | score 12, 20.2 km from anchor, 1 candidates |
+| akakura-kanko | manual coordinates | from places.json |
+| akakura-onsen | manual coordinates | from places.json |
+| suginohara | manual coordinates | from places.json |
+| ikenotaira | manual coordinates | from places.json |
 | lotte-arai | manual coordinates | from places.json |
 | shirataki | 白瀧酒造株式会社 (nominatim/845285004) | score 6, 0.6 km from anchor, 0 candidates |
 | hakkaisan | 八海醸造株式会社 (nominatim/1055578312) | score 6, 6.1 km from anchor, 0 candidates |
@@ -51,7 +51,6 @@ Placed 97 of 107 places. OK: 93, to check: 3, missing: 10, copied: 1.
 | kubiki-shuzo | manual coordinates | from places.json |
 | daidaigiku-jozo | manual coordinates | from places.json |
 | koyama-shuzoten | manual coordinates | from places.json |
-| fujinawa-shuzo | manual coordinates | from places.json |
 | asahi-shuzo | manual coordinates | from places.json |
 | yoshinogawa | manual coordinates | from places.json |
 | morohashi-shuzo | manual coordinates | from places.json |
@@ -75,39 +74,39 @@ Placed 97 of 107 places. OK: 93, to check: 3, missing: 10, copied: 1.
 | fukugao-shuzo | manual coordinates | from places.json |
 | onda-shuzo | manual coordinates | from places.json |
 | sekihara-shuzo | manual coordinates | from places.json |
-| naspa | ナスパスキーガーデン (way/948360185) | score 12, 1.1 km from anchor, 1 candidates |
-| yuzawa-park | 湯沢パークスキー場 (way/949496196) | score 12, 4.5 km from anchor, 1 candidates |
+| naspa | manual coordinates | from places.json |
+| yuzawa-park | manual coordinates | from places.json |
 | okutadami-maruyama | manual coordinates | from places.json |
-| koide | 小出スキー場 (way/1201567796) | score 12, 0.9 km from anchor, 1 candidates |
-| matsunoyama-onsen | 松之山温泉スキー場 (way/1568989113) | score 12, 16.1 km from anchor, 1 candidates |
-| seki-onsen | 関温泉スキー場 (way/937100228) | score 12, 17.1 km from anchor, 1 candidates |
-| kyukamura-myoko | 休暇村妙高 ルンルンスキー場 (way/937100229) | score 12, 16.0 km from anchor, 1 candidates |
+| koide | manual coordinates | from places.json |
+| matsunoyama-onsen | manual coordinates | from places.json |
+| seki-onsen | manual coordinates | from places.json |
+| kyukamura-myoko | manual coordinates | from places.json |
 | cupid-valley | manual coordinates | from places.json |
-| kanayasan | 金谷山スキー場 (way/1469699107) | score 12, 5.4 km from anchor, 1 candidates |
-| charmant-hiuchi | シャルマン火打 (way/349679854) | score 19, 19.2 km from anchor, 1 candidates |
-| miyao-shuzo | not found in OSM | skipped |
-| taiyo-shuzo | 大洋酒造 (nominatim/656887031) | score 6, 0.3 km from anchor, 0 candidates |
+| kanayasan | manual coordinates | from places.json |
+| charmant-hiuchi | manual coordinates | from places.json |
+| miyao-shuzo | manual coordinates | from places.json |
+| taiyo-shuzo | manual coordinates | from places.json |
 | ohmon-shuzo | 王紋酒造 (way/584896066) | score 7, 0.7 km from anchor, 1 candidates |
-| kikusui-shuzo | not found in OSM | skipped |
-| dhc-shuzo | not found in OSM | skipped |
+| kikusui-shuzo | manual coordinates | from places.json |
+| dhc-shuzo | manual coordinates | from places.json |
 | imayotsukasa | 今代司酒造 (way/760886897) | score 5, 1.2 km from anchor, 1 candidates **CHECK** |
 | ishimoto-shuzo | 石本酒造 (nominatim/744674912) | score 6, 6.5 km from anchor, 0 candidates |
-| murayu-shuzo | not found in OSM | skipped |
+| murayu-shuzo | manual coordinates | from places.json |
 | minenohakubai | 峰乃白梅酒造 (nominatim/14311561068) | score 6, 25.9 km from anchor, 0 candidates **CHECK** |
 | echigo-tsurukame | 越後鶴亀 (nominatim/1567847455) | score 6, 23.3 km from anchor, 0 candidates |
 | sasaiwai-shuzo | 笹祝酒造(株) (nominatim/14179705133) | score 6, 20.8 km from anchor, 0 candidates |
-| kondo-shuzo | not found in OSM | skipped |
-| kinshihai-shuzo | not found in OSM | skipped |
-| yahiko-shuzo | not found in OSM | skipped |
+| kondo-shuzo | manual coordinates | from places.json |
+| kinshihai-shuzo | manual coordinates | from places.json |
+| yahiko-shuzo | manual coordinates | from places.json |
 | kirinzan-shuzo | 麒麟山酒造(株) (nominatim/455002115) | score 6, 0.9 km from anchor, 0 candidates |
 | obata-shuzo | 尾畑酒造 (way/1171662298) | score 8, 6.4 km from anchor, 1 candidates |
-| hemmi-shuzo | not found in OSM | skipped |
+| hemmi-shuzo | manual coordinates | from places.json |
 | tenryohai-shuzo | 天領盃酒造 (way/686246040) | score 5, 9.2 km from anchor, 1 candidates **CHECK** |
-| hokusetsu-shuzo | not found in OSM | skipped |
-| kato-shuzoten | not found in OSM | skipped |
-| budo-snow-resort | ぶどうスノーリゾート (way/1458630488) | score 12, 19.9 km from anchor, 1 candidates |
-| tainai-ski | 胎内スキー場 (way/1208479993) | score 12, 10.5 km from anchor, 1 candidates |
-| ninox-snow-park | ニノックススノーパーク (way/1208479232) | score 12, 13.4 km from anchor, 1 candidates |
-| mikawa-onsen-ski | 三川温泉スキー場 (way/1208478420) | score 12, 6.4 km from anchor, 1 candidates |
-| sado-taira-ski | 佐渡市平スキー場 (way/1375474653) | score 12, 9.5 km from anchor, 1 candidates |
+| hokusetsu-shuzo | manual coordinates | from places.json |
+| kato-shuzoten | manual coordinates | from places.json |
+| budo-snow-resort | manual coordinates | from places.json |
+| tainai-ski | manual coordinates | from places.json |
+| ninox-snow-park | manual coordinates | from places.json |
+| mikawa-onsen-ski | manual coordinates | from places.json |
+| sado-taira-ski | manual coordinates | from places.json |
 | ponshukan | copied from echigo-yuzawa-station | offset slightly |

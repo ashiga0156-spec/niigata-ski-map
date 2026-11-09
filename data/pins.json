@@ -4,8 +4,8 @@
     "name": "Naeba Ski Resort",
     "name_ja": "苗場スキー場",
     "category": "ski",
-    "lat": 36.79391,
-    "lng": 138.77102,
+    "lat": 36.79546,
+    "lng": 138.78625,
     "desc": "One of Japan's best-known ski resorts, in the Yuzawa area. A route bus runs from Echigo-Yuzawa Station (about 45 minutes).",
     "links": [
       {
@@ -15,15 +15,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/952129313"
+    "source": "manual"
   },
   {
     "id": "kagura",
     "name": "Kagura Ski Resort",
     "name_ja": "かぐらスキー場",
     "category": "ski",
-    "lat": 36.8695,
-    "lng": 138.74264,
+    "lat": 36.88963,
+    "lng": 138.75445,
     "desc": "High-elevation ski area in the Yuzawa area, linked to Naeba by the long Dragondola gondola.",
     "links": [
       {
@@ -33,15 +33,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:relation/12821614"
+    "source": "manual"
   },
   {
     "id": "gala-yuzawa",
     "name": "GALA Yuzawa Snow Resort",
     "name_ja": "GALA湯沢スキー場",
     "category": "ski",
-    "lat": 36.94976,
-    "lng": 138.78441,
+    "lat": 36.95092,
+    "lng": 138.79958,
     "desc": "Ski resort with a Shinkansen station at its base in winter, which makes it an easy day trip from Tokyo. Check the seasonal train schedule.",
     "links": [
       {
@@ -51,7 +51,7 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/948328123"
+    "source": "manual"
   },
   {
     "id": "kandatsu",
@@ -76,8 +76,8 @@
     "name": "Yuzawa Nakazato Snow Resort",
     "name_ja": "湯沢中里スノーリゾート",
     "category": "ski",
-    "lat": 36.91174,
-    "lng": 138.85467,
+    "lat": 36.91439,
+    "lng": 138.8491,
     "desc": "Ski area near Echigo-Nakazato Station on the Joetsu Line.",
     "links": [
       {
@@ -87,15 +87,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/680041845"
+    "source": "manual"
   },
   {
     "id": "iwappara",
     "name": "Iwappara Ski Resort",
     "name_ja": "岩原スキー場",
     "category": "ski",
-    "lat": 36.94385,
-    "lng": 138.84216,
+    "lat": 36.93834,
+    "lng": 138.84062,
     "desc": "Ski area in the Yuzawa area.",
     "links": [
       {
@@ -105,15 +105,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/680045685"
+    "source": "manual"
   },
   {
     "id": "yuzawa-kogen",
     "name": "Yuzawa Kogen Ski Area",
     "name_ja": "湯沢高原スキー場",
     "category": "ski",
-    "lat": 36.9331,
-    "lng": 138.79382,
+    "lat": 36.94048,
+    "lng": 138.80389,
     "desc": "Ski area reached by a ropeway close to Echigo-Yuzawa Station.",
     "links": [
       {
@@ -123,15 +123,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/948328283"
+    "source": "manual"
   },
   {
     "id": "joetsu-kokusai",
     "name": "Joetsu Kokusai Ski Resort",
     "name_ja": "上越国際スキー場",
     "category": "ski",
-    "lat": 37.0311,
-    "lng": 138.79516,
+    "lat": 37.03347,
+    "lng": 138.8194,
     "desc": "Ski resort in the Yuzawa area.",
     "links": [
       {
@@ -141,15 +141,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/949500907"
+    "source": "manual"
   },
   {
     "id": "ishiuchi-maruyama",
     "name": "Ishiuchi Maruyama Ski Resort",
     "name_ja": "石打丸山スキー場",
     "category": "ski",
-    "lat": 36.97073,
-    "lng": 138.79221,
+    "lat": 36.97854,
+    "lng": 138.80259,
     "desc": "Ski resort in Minamiuonuma with views over the city, about 3 km from the Shiozawa-Ishiuchi interchange.",
     "links": [
       {
@@ -159,15 +159,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/464023310"
+    "source": "manual"
   },
   {
     "id": "maiko",
     "name": "Maiko Snow Resort",
     "name_ja": "舞子スノーリゾート",
     "category": "ski",
-    "lat": 36.97442,
-    "lng": 138.83576,
+    "lat": 36.98311,
+    "lng": 138.82486,
     "desc": "Ski resort about 1 km from the Shiozawa-Ishiuchi interchange, one of the easiest to reach by car in the area.",
     "links": [
       {
@@ -177,15 +177,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/679253285"
+    "source": "manual"
   },
   {
     "id": "muika",
     "name": "Muika Snow Resort",
     "name_ja": "ムイカスノーリゾート",
     "category": "ski",
-    "lat": 37.07307,
-    "lng": 138.83848,
+    "lat": 37.0716,
+    "lng": 138.84606,
     "desc": "Ski resort in Minamiuonuma. A shuttle bus runs from Muikamachi Station (about 10 minutes).",
     "links": [
       {
@@ -195,7 +195,7 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/626857453"
+    "source": "manual"
   },
   {
     "id": "muikamachi-hakkaisan",
@@ -220,8 +220,8 @@
     "name": "Akakura Kanko Resort Ski Area",
     "name_ja": "赤倉観光リゾートスキー場",
     "category": "ski",
-    "lat": 36.8902,
-    "lng": 138.15959,
+    "lat": 36.88717,
+    "lng": 138.17763,
     "desc": "Large ski area in Myoko Kogen next to the Akakura Kanko Hotel, with a top elevation of about 1,500 m and runs of up to 4.5 km.",
     "links": [
       {
@@ -231,15 +231,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/937100226"
+    "source": "manual"
   },
   {
     "id": "akakura-onsen",
     "name": "Akakura Onsen Ski Area",
     "name_ja": "赤倉温泉スキー場",
     "category": "ski",
-    "lat": 36.89641,
-    "lng": 138.16918,
+    "lat": 36.89606,
+    "lng": 138.17623,
     "desc": "Ski area at the foot of Mt. Myoko, about 8 minutes by car from the Myoko-Kogen interchange and close to the Akakura hot spring village.",
     "links": [
       {
@@ -249,15 +249,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/937100227"
+    "source": "manual"
   },
   {
     "id": "suginohara",
     "name": "Myoko Suginohara Ski Resort",
     "name_ja": "妙高杉ノ原スキー場",
     "category": "ski",
-    "lat": 36.86346,
-    "lng": 138.13715,
+    "lat": 36.85706,
+    "lng": 138.15503,
     "desc": "Long, wide ski area with runs of up to about 8.5 km and a vertical drop of roughly 1,100 m. Buses run from Myoko-Kogen Station (about 25 minutes).",
     "links": [
       {
@@ -267,15 +267,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/937086872"
+    "source": "manual"
   },
   {
     "id": "ikenotaira",
     "name": "Ikenotaira Onsen Alpen Blick Ski Area",
     "name_ja": "池の平温泉アルペンブリックスキー場",
     "category": "ski",
-    "lat": 36.87355,
-    "lng": 138.15553,
+    "lat": 36.87271,
+    "lng": 138.17192,
     "desc": "Wide, open slope at the foot of Mt. Myoko.",
     "links": [
       {
@@ -285,7 +285,7 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/937086873"
+    "source": "manual"
   },
   {
     "id": "lotte-arai",
@@ -685,11 +685,11 @@
     "name": "Tanaka Shuzo",
     "name_ja": "田中酒造",
     "category": "sake",
-    "lat": 37.1728,
-    "lng": 138.2045,
+    "lat": 37.1942,
+    "lng": 138.1896,
     "desc": "Sake brewery in Joetsu, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -697,11 +697,11 @@
     "name": "Joetsu Shuzo",
     "name_ja": "上越酒造",
     "category": "sake",
-    "lat": 37.2281,
-    "lng": 138.4128,
+    "lat": 37.09814,
+    "lng": 138.33544,
     "desc": "Sake brewery in Joetsu (Yoshikawa), Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -709,11 +709,11 @@
     "name": "Kaganoi Shuzo",
     "name_ja": "加賀の井酒造",
     "category": "sake",
-    "lat": 37.0456,
-    "lng": 137.8647,
+    "lat": 37.04544,
+    "lng": 137.85932,
     "desc": "Sake brewery in Itoigawa, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -721,11 +721,11 @@
     "name": "Takeda Shuzoten",
     "name_ja": "竹田酒造店",
     "category": "sake",
-    "lat": 37.2344,
-    "lng": 138.3672,
+    "lat": 37.21963,
+    "lng": 138.31313,
     "desc": "Sake brewery in Joetsu (Kakizaki), Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -733,11 +733,11 @@
     "name": "Niigata Daiichi Shuzo",
     "name_ja": "新潟第一酒造",
     "category": "sake",
-    "lat": 37.1953,
-    "lng": 138.3756,
+    "lat": 37.16326,
+    "lng": 138.41412,
     "desc": "Sake brewery in Joetsu (Uragawara), Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -745,11 +745,11 @@
     "name": "Kubiki Shuzo",
     "name_ja": "頚城酒造",
     "category": "sake",
-    "lat": 37.2181,
-    "lng": 138.3564,
+    "lat": 37.27596,
+    "lng": 138.39274,
     "desc": "Sake brewery in Joetsu (Kakizaki), Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -757,11 +757,11 @@
     "name": "Daidaigiku Jozo",
     "name_ja": "代々菊醸造",
     "category": "sake",
-    "lat": 37.1158,
-    "lng": 138.3619,
+    "lat": 37.25491,
+    "lng": 138.39998,
     "desc": "Sake brewery in Joetsu (Kubiki), Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -769,23 +769,11 @@
     "name": "Koyama Shuzoten",
     "name_ja": "小山酒造店",
     "category": "sake",
-    "lat": 37.1706,
-    "lng": 138.3375,
+    "lat": 37.22845,
+    "lng": 138.32556,
     "desc": "Sake brewery in Joetsu (Sanwa), Niigata.",
     "links": [],
-    "verified": false,
-    "source": "manual"
-  },
-  {
-    "id": "fujinawa-shuzo",
-    "name": "Fujinawa Shuzo",
-    "name_ja": "藤縄酒造",
-    "category": "sake",
-    "lat": 37.2269,
-    "lng": 138.3242,
-    "desc": "Sake brewery in Joetsu (Ogata), Niigata.",
-    "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -793,11 +781,11 @@
     "name": "Asahi Shuzo",
     "name_ja": "朝日酒造",
     "category": "sake",
-    "lat": 37.3694,
-    "lng": 138.8354,
+    "lat": 37.39698,
+    "lng": 138.77464,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -805,11 +793,11 @@
     "name": "Yoshinogawa",
     "name_ja": "吉乃川",
     "category": "sake",
-    "lat": 37.4267,
-    "lng": 138.8528,
+    "lat": 37.41634,
+    "lng": 138.84102,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -817,11 +805,11 @@
     "name": "Morohashi Shuzo",
     "name_ja": "諸橋酒造",
     "category": "sake",
-    "lat": 37.4772,
-    "lng": 138.995,
+    "lat": 37.45557,
+    "lng": 138.97949,
     "desc": "Sake brewery in Nagaoka, Niigata, known for the Koshino Kagetora brand.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -829,11 +817,11 @@
     "name": "Kawachu Shuzo",
     "name_ja": "河忠酒造",
     "category": "sake",
-    "lat": 37.3241,
-    "lng": 138.749,
+    "lat": 37.50335,
+    "lng": 138.7846,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -841,11 +829,11 @@
     "name": "Hakuro Shuzo",
     "name_ja": "柏露酒造",
     "category": "sake",
-    "lat": 37.445,
-    "lng": 138.8681,
+    "lat": 37.38939,
+    "lng": 138.83369,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -853,11 +841,11 @@
     "name": "Hasegawa Shuzo",
     "name_ja": "長谷川酒造",
     "category": "sake",
-    "lat": 37.4278,
-    "lng": 138.8519,
+    "lat": 37.41278,
+    "lng": 138.84514,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -865,11 +853,11 @@
     "name": "Ofuku Shuzo",
     "name_ja": "お福酒造",
     "category": "sake",
-    "lat": 37.4691,
-    "lng": 138.8361,
+    "lat": 37.40315,
+    "lng": 138.85196,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -877,11 +865,11 @@
     "name": "Hara Shuzo",
     "name_ja": "原酒造",
     "category": "sake",
-    "lat": 37.3621,
-    "lng": 138.5601,
+    "lat": 37.36664,
+    "lng": 138.55133,
     "desc": "Sake brewery in Kashiwazaki, Niigata, known for the Koshi no Homare brand.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -889,11 +877,11 @@
     "name": "Ikeura Shuzo",
     "name_ja": "池浦酒造",
     "category": "sake",
-    "lat": 37.3005,
-    "lng": 138.7214,
+    "lat": 37.57488,
+    "lng": 138.74188,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -901,11 +889,11 @@
     "name": "Nakagawa Shuzo",
     "name_ja": "中川酒造",
     "category": "sake",
-    "lat": 37.4328,
-    "lng": 138.8611,
+    "lat": 37.49978,
+    "lng": 138.7826,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -913,11 +901,11 @@
     "name": "Takahashi Shuzo",
     "name_ja": "高橋酒造",
     "category": "sake",
-    "lat": 37.3553,
-    "lng": 138.7758,
+    "lat": 37.45913,
+    "lng": 138.86486,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -925,11 +913,11 @@
     "name": "Asatsuma Shuzo",
     "name_ja": "朝妻酒造",
     "category": "sake",
-    "lat": 37.4475,
-    "lng": 138.8612,
-    "desc": "Sake brewery in Nagaoka, Niigata.",
+    "lat": 37.79623,
+    "lng": 138.91671,
+    "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -937,11 +925,11 @@
     "name": "Hozan Shuzo",
     "name_ja": "宝山酒造",
     "category": "sake",
-    "lat": 37.7275,
-    "lng": 138.922,
+    "lat": 37.72483,
+    "lng": 138.83869,
     "desc": "Sake brewery in Niigata City (Nishi-Kan), Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -949,11 +937,11 @@
     "name": "Uonuma Shuzo",
     "name_ja": "魚沼酒造",
     "category": "sake",
-    "lat": 37.1294,
-    "lng": 138.7428,
+    "lat": 37.15091,
+    "lng": 138.77395,
     "desc": "Sake brewery in Tokamachi, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -961,11 +949,11 @@
     "name": "Naeba Shuzo",
     "name_ja": "苗場酒造",
     "category": "sake",
-    "lat": 37.0189,
-    "lng": 138.6536,
+    "lat": 37.01397,
+    "lng": 138.65151,
     "desc": "Sake brewery in Tsunan, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -973,11 +961,11 @@
     "name": "Tsunan Jozo",
     "name_ja": "津南醸造",
     "category": "sake",
-    "lat": 36.9981,
-    "lng": 138.675,
+    "lat": 36.96727,
+    "lng": 138.67201,
     "desc": "Sake brewery in Tsunan, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -985,11 +973,11 @@
     "name": "Tamagawa Shuzo",
     "name_ja": "玉川酒造",
     "category": "sake",
-    "lat": 37.2886,
-    "lng": 139.0208,
+    "lat": 37.32398,
+    "lng": 139.01884,
     "desc": "Sake brewery in Uonuma, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -997,11 +985,11 @@
     "name": "Takanoi Shuzo",
     "name_ja": "高の井酒造",
     "category": "sake",
-    "lat": 37.3197,
-    "lng": 138.8028,
+    "lat": 37.31409,
+    "lng": 138.81251,
     "desc": "Sake brewery in Ojiya, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -1009,11 +997,11 @@
     "name": "Masukagami",
     "name_ja": "マスカガミ",
     "category": "sake",
-    "lat": 37.6631,
-    "lng": 139.0436,
+    "lat": 37.65658,
+    "lng": 139.06415,
     "desc": "Sake brewery in Kamo, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -1021,11 +1009,11 @@
     "name": "Yukitsubaki Shuzo",
     "name_ja": "雪椿酒造",
     "category": "sake",
-    "lat": 37.6617,
-    "lng": 139.04,
+    "lat": 37.6584,
+    "lng": 139.05679,
     "desc": "Sake brewery in Kamo, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -1033,11 +1021,11 @@
     "name": "Fukugao Shuzo",
     "name_ja": "福顔酒造",
     "category": "sake",
-    "lat": 37.6331,
-    "lng": 138.9664,
+    "lat": 37.62905,
+    "lng": 138.96423,
     "desc": "Sake brewery in Sanjo, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -1045,11 +1033,11 @@
     "name": "Onda Shuzo",
     "name_ja": "恩田酒造",
     "category": "sake",
-    "lat": 37.525,
-    "lng": 138.7733,
+    "lat": 37.35884,
+    "lng": 138.83455,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -1057,11 +1045,11 @@
     "name": "Sekihara Shuzo",
     "name_ja": "関原酒造",
     "category": "sake",
-    "lat": 37.4331,
-    "lng": 138.8011,
+    "lat": 37.45332,
+    "lng": 138.77501,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
-    "verified": false,
+    "verified": true,
     "source": "manual"
   },
   {
@@ -1069,8 +1057,8 @@
     "name": "NASPA Ski Garden",
     "name_ja": "NASPAスキーガーデン",
     "category": "ski",
-    "lat": 36.92451,
-    "lng": 138.80501,
+    "lat": 36.927,
+    "lng": 138.80906,
     "desc": "Ski area in Yuzawa, Niigata.",
     "links": [
       {
@@ -1080,15 +1068,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/948360185"
+    "source": "manual"
   },
   {
     "id": "yuzawa-park",
     "name": "Yuzawa Park Ski Area",
     "name_ja": "湯沢パークスキー場",
     "category": "ski",
-    "lat": 36.9242,
-    "lng": 138.85946,
+    "lat": 36.92508,
+    "lng": 138.85971,
     "desc": "Ski area in Yuzawa (Doaru), Niigata.",
     "links": [
       {
@@ -1098,7 +1086,7 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/949496196"
+    "source": "manual"
   },
   {
     "id": "okutadami-maruyama",
@@ -1123,8 +1111,8 @@
     "name": "Koide Ski Area",
     "name_ja": "小出スキー場",
     "category": "ski",
-    "lat": 37.22701,
-    "lng": 138.95063,
+    "lat": 37.22825,
+    "lng": 138.95518,
     "desc": "Ski area in Uonuma, Niigata.",
     "links": [
       {
@@ -1134,15 +1122,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/1201567796"
+    "source": "manual"
   },
   {
     "id": "matsunoyama-onsen",
     "name": "Matsunoyama Onsen Ski Area",
     "name_ja": "松之山温泉スキー場",
     "category": "ski",
-    "lat": 37.04805,
-    "lng": 138.60095,
+    "lat": 37.05237,
+    "lng": 138.59757,
     "desc": "Ski area in Tokamachi (Matsunoyama), Niigata.",
     "links": [
       {
@@ -1152,15 +1140,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/1568989113"
+    "source": "manual"
   },
   {
     "id": "seki-onsen",
     "name": "Seki Onsen Ski Area",
     "name_ja": "関温泉スキー場",
     "category": "ski",
-    "lat": 36.90579,
-    "lng": 138.15721,
+    "lat": 36.90611,
+    "lng": 138.16089,
     "desc": "Ski area in Myoko (Seki Onsen), Niigata.",
     "links": [
       {
@@ -1170,15 +1158,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/937100228"
+    "source": "manual"
   },
   {
     "id": "kyukamura-myoko",
     "name": "Kyukamura Myoko Runrun Ski Area",
     "name_ja": "休暇村妙高ルンルンスキー場",
     "category": "ski",
-    "lat": 36.91041,
-    "lng": 138.16995,
+    "lat": 36.91204,
+    "lng": 138.16819,
     "desc": "Ski area in Myoko (Sekiyama), Niigata.",
     "links": [
       {
@@ -1188,7 +1176,7 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/937100229"
+    "source": "manual"
   },
   {
     "id": "cupid-valley",
@@ -1213,8 +1201,8 @@
     "name": "Kanayasan Ski Area",
     "name_ja": "金谷山スキー場",
     "category": "ski",
-    "lat": 37.10352,
-    "lng": 138.22371,
+    "lat": 37.1042,
+    "lng": 138.22498,
     "desc": "Ski area in Joetsu, Niigata.",
     "links": [
       {
@@ -1224,15 +1212,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/1469699107"
+    "source": "manual"
   },
   {
     "id": "charmant-hiuchi",
     "name": "Charmant Hiuchi Ski Area",
     "name_ja": "シャルマン火打スキー場",
     "category": "ski",
-    "lat": 36.99825,
-    "lng": 138.06939,
+    "lat": 37.00354,
+    "lng": 138.07061,
     "desc": "Ski area in Itoigawa, Niigata.",
     "links": [
       {
@@ -1242,19 +1230,31 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/349679854"
+    "source": "manual"
+  },
+  {
+    "id": "miyao-shuzo",
+    "name": "Miyao Shuzo",
+    "name_ja": "宮尾酒造",
+    "category": "sake",
+    "lat": 38.27019,
+    "lng": 139.4863,
+    "desc": "Sake brewery in Murakami, Niigata (brand: 〆張鶴).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
   },
   {
     "id": "taiyo-shuzo",
     "name": "Taiyo Shuzo",
     "name_ja": "大洋酒造",
     "category": "sake",
-    "lat": 38.21976,
-    "lng": 139.47667,
+    "lat": 38.21999,
+    "lng": 139.4771,
     "desc": "Sake brewery in Murakami, Niigata (brand: 大洋盛).",
     "links": [],
     "verified": true,
-    "source": "osm:nominatim/656887031"
+    "source": "manual"
   },
   {
     "id": "ohmon-shuzo",
@@ -1267,6 +1267,30 @@
     "links": [],
     "verified": true,
     "source": "osm:way/584896066"
+  },
+  {
+    "id": "kikusui-shuzo",
+    "name": "Kikusui Shuzo",
+    "name_ja": "菊水酒造",
+    "category": "sake",
+    "lat": 37.9605,
+    "lng": 139.35424,
+    "desc": "Sake brewery in Shibata, Niigata (brand: 菊水).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "dhc-shuzo",
+    "name": "DHC Shuzo",
+    "name_ja": "DHC酒造",
+    "category": "sake",
+    "lat": 37.91347,
+    "lng": 139.21891,
+    "desc": "Sake brewery in Niigata City (Kita-ku), Niigata (brand: 嘉山).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
   },
   {
     "id": "imayotsukasa",
@@ -1291,6 +1315,18 @@
     "links": [],
     "verified": true,
     "source": "osm:nominatim/744674912"
+  },
+  {
+    "id": "murayu-shuzo",
+    "name": "Murayu Shuzo",
+    "name_ja": "村祐酒造",
+    "category": "sake",
+    "lat": 37.7484,
+    "lng": 139.09306,
+    "desc": "Sake brewery in Niigata City (Akiha-ku), Niigata (brand: 花越路).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
   },
   {
     "id": "minenohakubai",
@@ -1329,6 +1365,42 @@
     "source": "osm:nominatim/14179705133"
   },
   {
+    "id": "kondo-shuzo",
+    "name": "Kondo Shuzo",
+    "name_ja": "近藤酒造",
+    "category": "sake",
+    "lat": 37.73816,
+    "lng": 139.18122,
+    "desc": "Sake brewery in Gosen, Niigata (brand: 越乃鹿六).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "kinshihai-shuzo",
+    "name": "Kinshihai Shuzo",
+    "name_ja": "金鵄盃酒造",
+    "category": "sake",
+    "lat": 37.69065,
+    "lng": 139.17591,
+    "desc": "Sake brewery in Gosen, Niigata (brand: 越後杜氏).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "yahiko-shuzo",
+    "name": "Yahiko Shuzo",
+    "name_ja": "弥彦酒造",
+    "category": "sake",
+    "lat": 37.71345,
+    "lng": 138.83176,
+    "desc": "Sake brewery in Yahiko, Niigata (brand: 彌彦).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
     "id": "kirinzan-shuzo",
     "name": "Kirinzan Shuzo",
     "name_ja": "麒麟山酒造",
@@ -1353,6 +1425,18 @@
     "source": "osm:way/1171662298"
   },
   {
+    "id": "hemmi-shuzo",
+    "name": "Hemmi Shuzo",
+    "name_ja": "逸見酒造",
+    "category": "sake",
+    "lat": 37.97377,
+    "lng": 138.34817,
+    "desc": "Sake brewery in Sado, Niigata (brand: 真稜).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
     "id": "tenryohai-shuzo",
     "name": "Tenryohai Shuzo",
     "name_ja": "天領盃酒造",
@@ -1365,12 +1449,36 @@
     "source": "osm:way/686246040"
   },
   {
+    "id": "hokusetsu-shuzo",
+    "name": "Hokusetsu Shuzo",
+    "name_ja": "北雪酒造",
+    "category": "sake",
+    "lat": 37.87084,
+    "lng": 138.41374,
+    "desc": "Sake brewery in Sado, Niigata (brand: 北雪).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
+    "id": "kato-shuzoten",
+    "name": "Kato Shuzoten",
+    "name_ja": "加藤酒造店",
+    "category": "sake",
+    "lat": 38.0077,
+    "lng": 138.29016,
+    "desc": "Sake brewery in Sado, Niigata (brand: 金鶴).",
+    "links": [],
+    "verified": true,
+    "source": "manual"
+  },
+  {
     "id": "budo-snow-resort",
     "name": "Budo Snow Resort",
     "name_ja": "ぶどうスノーリゾート",
     "category": "ski",
-    "lat": 38.39155,
-    "lng": 139.54657,
+    "lat": 38.39017,
+    "lng": 139.55461,
     "desc": "Ski area in Murakami, Niigata.",
     "links": [
       {
@@ -1380,15 +1488,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/1458630488"
+    "source": "manual"
   },
   {
     "id": "tainai-ski",
     "name": "Tainai Ski Resort",
     "name_ja": "胎内スキー場",
     "category": "ski",
-    "lat": 38.00273,
-    "lng": 139.50416,
+    "lat": 38.01694,
+    "lng": 139.50235,
     "desc": "Ski area in Tainai, Niigata.",
     "links": [
       {
@@ -1398,15 +1506,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/1208479993"
+    "source": "manual"
   },
   {
     "id": "ninox-snow-park",
     "name": "Ninox Snow Park",
     "name_ja": "ニノックススノーパーク",
     "category": "ski",
-    "lat": 37.92327,
-    "lng": 139.47943,
+    "lat": 37.92697,
+    "lng": 139.46795,
     "desc": "Ski area in Shibata, Niigata.",
     "links": [
       {
@@ -1416,15 +1524,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/1208479232"
+    "source": "manual"
   },
   {
     "id": "mikawa-onsen-ski",
     "name": "Mikawa Onsen Ski Area",
     "name_ja": "三川・温泉スキー場",
     "category": "ski",
-    "lat": 37.71782,
-    "lng": 139.39565,
+    "lat": 37.72087,
+    "lng": 139.39334,
     "desc": "Ski area in Aga (Mikawa), Niigata.",
     "links": [
       {
@@ -1434,15 +1542,15 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/1208478420"
+    "source": "manual"
   },
   {
     "id": "sado-taira-ski",
     "name": "Sado Taira Ski Area",
     "name_ja": "佐渡市平スキー場",
     "category": "ski",
-    "lat": 38.07673,
-    "lng": 138.3514,
+    "lat": 38.07668,
+    "lng": 138.34987,
     "desc": "Ski area in Sado, Niigata.",
     "links": [
       {
@@ -1452,6 +1560,6 @@
       }
     ],
     "verified": true,
-    "source": "osm:way/1375474653"
+    "source": "manual"
   }
 ]
