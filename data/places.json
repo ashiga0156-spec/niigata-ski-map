@@ -10,7 +10,13 @@
       "苗場"
     ],
     "desc": "One of Japan's best-known ski resorts, in the Yuzawa area. A route bus runs from Echigo-Yuzawa Station (about 45 minutes).",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "kagura",
@@ -23,7 +29,13 @@
       "かぐら"
     ],
     "desc": "High-elevation ski area in the Yuzawa area, linked to Naeba by the long Dragondola gondola.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "gala-yuzawa",
@@ -36,7 +48,13 @@
       "ガーラ湯沢"
     ],
     "desc": "Ski resort with a Shinkansen station at its base in winter, which makes it an easy day trip from Tokyo. Check the seasonal train schedule.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "kandatsu",
@@ -49,7 +67,13 @@
       "神立スキー"
     ],
     "desc": "Ski area on the southeastern slope of Mt. Iiji, about 3 km from Echigo-Yuzawa Station.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "manual": [
       36.91131,
       138.81278
@@ -66,7 +90,13 @@
       "中里スノー"
     ],
     "desc": "Ski area near Echigo-Nakazato Station on the Joetsu Line.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "iwappara",
@@ -79,7 +109,13 @@
       "岩原"
     ],
     "desc": "Ski area in the Yuzawa area.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "yuzawa-kogen",
@@ -91,7 +127,13 @@
       "湯沢高原"
     ],
     "desc": "Ski area reached by a ropeway close to Echigo-Yuzawa Station.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "joetsu-kokusai",
@@ -103,7 +145,13 @@
       "上越国際"
     ],
     "desc": "Ski resort in the Yuzawa area.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "ishiuchi-maruyama",
@@ -115,7 +163,13 @@
       "石打丸山"
     ],
     "desc": "Ski resort in Minamiuonuma with views over the city, about 3 km from the Shiozawa-Ishiuchi interchange.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "maiko",
@@ -128,7 +182,13 @@
       "舞子スキー"
     ],
     "desc": "Ski resort about 1 km from the Shiozawa-Ishiuchi interchange, one of the easiest to reach by car in the area.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "muika",
@@ -141,7 +201,13 @@
       "ムイカ"
     ],
     "desc": "Ski resort in Minamiuonuma. A shuttle bus runs from Muikamachi Station (about 10 minutes).",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "muikamachi-hakkaisan",
@@ -153,7 +219,13 @@
       "六日町八海山"
     ],
     "desc": "Ski resort on the slopes of Mt. Hakkai in Minamiuonuma.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "manual": [
       37.10804,
       138.97788
@@ -170,7 +242,13 @@
       "赤倉観光"
     ],
     "desc": "Large ski area in Myoko Kogen next to the Akakura Kanko Hotel, with a top elevation of about 1,500 m and runs of up to 4.5 km.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "akakura-onsen",
@@ -182,7 +260,13 @@
       "赤倉温泉スキー場"
     ],
     "desc": "Ski area at the foot of Mt. Myoko, about 8 minutes by car from the Myoko-Kogen interchange and close to the Akakura hot spring village.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "suginohara",
@@ -195,7 +279,13 @@
       "杉ノ原スキー"
     ],
     "desc": "Long, wide ski area with runs of up to about 8.5 km and a vertical drop of roughly 1,100 m. Buses run from Myoko-Kogen Station (about 25 minutes).",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "ikenotaira",
@@ -208,7 +298,13 @@
       "池の平温泉"
     ],
     "desc": "Wide, open slope at the foot of Mt. Myoko.",
-    "links": []
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "lotte-arai",
@@ -220,7 +316,13 @@
       "ロッテアライ"
     ],
     "desc": "Resort and ski area in Myoko.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "manual": [
       36.99062,
       138.18128
@@ -442,7 +544,18 @@
       "越後湯沢"
     ],
     "desc": "Shinkansen gateway to the Yuzawa ski areas, about 70 minutes from Tokyo Station at the fastest. Ponshukan sake tasting is inside the station.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "echigo-nakazato-station",
@@ -454,7 +567,18 @@
       "越後中里"
     ],
     "desc": "Joetsu Line station close to the Yuzawa Nakazato ski area.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "urasa-station",
@@ -466,7 +590,18 @@
       "浦佐"
     ],
     "desc": "Joetsu Shinkansen stop in Minamiuonuma.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "muikamachi-station",
@@ -478,7 +613,18 @@
       "六日町"
     ],
     "desc": "Joetsu Line station in Minamiuonuma. Shuttle buses to some local ski areas depart from here.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "nagaoka-station",
@@ -490,7 +636,18 @@
       "長岡"
     ],
     "desc": "Major Joetsu Shinkansen stop, with a Ponshukan sake shop.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "niigata-station",
@@ -502,7 +659,18 @@
       "新潟"
     ],
     "desc": "Main station of Niigata City and the northern end of the Joetsu Shinkansen. A Ponshukan sake shop is here too.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "niigata-airport",
@@ -514,7 +682,18 @@
       "新潟空港"
     ],
     "desc": "Niigata's airport, on the coast near Niigata City.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "joetsumyoko-station",
@@ -526,7 +705,18 @@
       "上越妙高"
     ],
     "desc": "Hokuriku Shinkansen stop and the usual starting point for the Myoko area.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "myoko-kogen-station",
@@ -538,7 +728,18 @@
       "妙高高原"
     ],
     "desc": "Station on the Echigo Tokimeki Railway (Myoko Haneuma Line) in the Myoko ski area. Buses run from here to Suginohara.",
-    "links": []
+    "links": [
+      {
+        "label": "Niigata tours & activities (Klook)",
+        "url": "https://klook.tpo.li/Xkg8M4Xb",
+        "affiliate": true
+      },
+      {
+        "label": "Travel eSIM for Japan (Yesim)",
+        "url": "https://yesim.tpo.li/mRn8onRt",
+        "affiliate": true
+      }
+    ]
   },
   {
     "id": "tanaka-shuzo",
@@ -1095,7 +1296,13 @@
       "ナスパ"
     ],
     "desc": "Ski area in Yuzawa, Niigata.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "approx": [
       36.9328,
       138.8314
@@ -1111,7 +1318,13 @@
       "湯沢パーク"
     ],
     "desc": "Ski area in Yuzawa (Doaru), Niigata.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "approx": [
       36.9536,
       138.8089
@@ -1128,10 +1341,16 @@
       "奥只見"
     ],
     "desc": "Ski area in Uonuma, Niigata.",
-    "links": [],
-    "approx": [
-      37.1519,
-      139.1028
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
+    "manual": [
+      37.16223,
+      139.24598
     ]
   },
   {
@@ -1144,7 +1363,13 @@
       "小出スキー"
     ],
     "desc": "Ski area in Uonuma, Niigata.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "approx": [
       37.2289,
       138.9567
@@ -1160,7 +1385,13 @@
       "松之山"
     ],
     "desc": "Ski area in Tokamachi (Matsunoyama), Niigata.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "approx": [
       37.135,
       138.5992
@@ -1177,7 +1408,13 @@
       "関温泉"
     ],
     "desc": "Ski area in Myoko (Seki Onsen), Niigata.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "approx": [
       36.8903,
       138.2436
@@ -1194,7 +1431,13 @@
       "ルンルン"
     ],
     "desc": "Ski area in Myoko (Sekiyama), Niigata.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "approx": [
       36.8833,
       138.2458
@@ -1210,10 +1453,16 @@
       "キューピット"
     ],
     "desc": "Ski area in Joetsu (Yasuzuka), Niigata.",
-    "links": [],
-    "approx": [
-      37.1953,
-      138.455
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
+    "manual": [
+      37.05508,
+      138.48453
     ]
   },
   {
@@ -1226,7 +1475,13 @@
       "金谷山"
     ],
     "desc": "Ski area in Joetsu, Niigata.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "approx": [
       37.1192,
       138.2547
@@ -1243,7 +1498,13 @@
       "シャルマン"
     ],
     "desc": "Ski area in Itoigawa, Niigata.",
-    "links": [],
+    "links": [
+      {
+        "label": "Ski tickets & tours (Klook)",
+        "url": "https://klook.tpo.li/s6T2QaQI",
+        "affiliate": true
+      }
+    ],
     "approx": [
       36.98,
       137.9942
