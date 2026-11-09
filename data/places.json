@@ -1,85 +1,543 @@
 [
-  {"id":"naeba","name":"Naeba Ski Resort","name_ja":"苗場スキー場","category":"ski","area":"yuzawa","search":["苗場スキー場","苗場"],
-   "desc":"One of Japan's best-known ski resorts, in the Yuzawa area. A route bus runs from Echigo-Yuzawa Station (about 45 minutes).","links":[]},
-  {"id":"kagura","name":"Kagura Ski Resort","name_ja":"かぐらスキー場","category":"ski","area":"yuzawa","search":["かぐらスキー場","かぐら"],
-   "desc":"High-elevation ski area in the Yuzawa area, linked to Naeba by the long Dragondola gondola.","links":[]},
-  {"id":"gala-yuzawa","name":"GALA Yuzawa Snow Resort","name_ja":"GALA湯沢スキー場","category":"ski","area":"yuzawa","search":["GALA湯沢","ガーラ湯沢"],
-   "desc":"Ski resort with a Shinkansen station at its base in winter, which makes it an easy day trip from Tokyo. Check the seasonal train schedule.","links":[]},
-  {"id":"kandatsu","name":"Kandatsu Snow Resort","name_ja":"神立スノーリゾート","category":"ski","area":"yuzawa","search":["神立スノーリゾート","神立スキー"],
-   "desc":"Ski area on the southeastern slope of Mt. Iiji, about 3 km from Echigo-Yuzawa Station.","links":[]},
-  {"id":"yuzawa-nakazato","name":"Yuzawa Nakazato Snow Resort","name_ja":"湯沢中里スノーリゾート","category":"ski","area":"yuzawa","search":["湯沢中里","中里スノー"],
-   "desc":"Ski area near Echigo-Nakazato Station on the Joetsu Line.","links":[]},
-  {"id":"iwappara","name":"Iwappara Ski Resort","name_ja":"岩原スキー場","category":"ski","area":"yuzawa","search":["岩原スキー場","岩原"],
-   "desc":"Ski area in the Yuzawa area.","links":[]},
-  {"id":"yuzawa-kogen","name":"Yuzawa Kogen Ski Area","name_ja":"湯沢高原スキー場","category":"ski","area":"yuzawa","search":["湯沢高原"],
-   "desc":"Ski area reached by a ropeway close to Echigo-Yuzawa Station.","links":[]},
-  {"id":"joetsu-kokusai","name":"Joetsu Kokusai Ski Resort","name_ja":"上越国際スキー場","category":"ski","area":"yuzawa","search":["上越国際"],
-   "desc":"Ski resort in the Yuzawa area.","links":[]},
-  {"id":"ishiuchi-maruyama","name":"Ishiuchi Maruyama Ski Resort","name_ja":"石打丸山スキー場","category":"ski","area":"minamiuonuma","search":["石打丸山"],
-   "desc":"Ski resort in Minamiuonuma with views over the city, about 3 km from the Shiozawa-Ishiuchi interchange.","links":[]},
-  {"id":"maiko","name":"Maiko Snow Resort","name_ja":"舞子スノーリゾート","category":"ski","area":"minamiuonuma","search":["舞子スノーリゾート","舞子スキー"],
-   "desc":"Ski resort about 1 km from the Shiozawa-Ishiuchi interchange, one of the easiest to reach by car in the area.","links":[]},
-  {"id":"muika","name":"Muika Snow Resort","name_ja":"ムイカスノーリゾート","category":"ski","area":"minamiuonuma","search":["ムイカスノー","ムイカ"],
-   "desc":"Ski resort in Minamiuonuma. A shuttle bus runs from Muikamachi Station (about 10 minutes).","links":[]},
-  {"id":"muikamachi-hakkaisan","name":"Muikamachi Hakkaisan Ski Resort","name_ja":"六日町八海山スキー場","category":"ski","area":"minamiuonuma","search":["六日町八海山"],
-   "desc":"Ski resort on the slopes of Mt. Hakkai in Minamiuonuma.","links":[]},
-  {"id":"akakura-kanko","name":"Akakura Kanko Resort Ski Area","name_ja":"赤倉観光リゾートスキー場","category":"ski","area":"myoko","search":["赤倉観光リゾート","赤倉観光"],
-   "desc":"Large ski area in Myoko Kogen next to the Akakura Kanko Hotel, with a top elevation of about 1,500 m and runs of up to 4.5 km.","links":[]},
-  {"id":"akakura-onsen","name":"Akakura Onsen Ski Area","name_ja":"赤倉温泉スキー場","category":"ski","area":"myoko","search":["赤倉温泉スキー場"],
-   "desc":"Ski area at the foot of Mt. Myoko, about 8 minutes by car from the Myoko-Kogen interchange and close to the Akakura hot spring village.","links":[]},
-  {"id":"suginohara","name":"Myoko Suginohara Ski Resort","name_ja":"妙高杉ノ原スキー場","category":"ski","area":"myoko","search":["妙高杉ノ原","杉ノ原スキー"],
-   "desc":"Long, wide ski area with runs of up to about 8.5 km and a vertical drop of roughly 1,100 m. Buses run from Myoko-Kogen Station (about 25 minutes).","links":[]},
-  {"id":"ikenotaira","name":"Ikenotaira Onsen Alpen Blick Ski Area","name_ja":"池の平温泉アルペンブリックスキー場","category":"ski","area":"myoko","search":["アルペンブリック","池の平温泉"],
-   "desc":"Wide, open slope at the foot of Mt. Myoko.","links":[]},
-  {"id":"lotte-arai","name":"Lotte Arai Resort","name_ja":"ロッテアライリゾート","category":"ski","area":"myoko","search":["ロッテアライ"],
-   "desc":"Resort and ski area in Myoko.","links":[]},
-
-  {"id":"shirataki","name":"Shirataki Brewery","name_ja":"白瀧酒造","category":"sake","area":"yuzawa","search":["白瀧酒造"],
-   "desc":"Yuzawa brewery known for the Jozen Mizu no Gotoshi and Minatoya Tosuke brands. Winter brewery tours are offered by reservation; check the brewery's site.","links":[]},
-  {"id":"ponshukan","name":"Ponshukan Sake Museum (Echigo-Yuzawa Station)","name_ja":"ぽんしゅ館 越後湯沢驛店","category":"sake","area":"yuzawa","search":["ぽんしゅ館"],
-   "coords_from":"echigo-yuzawa-station",
-   "desc":"Coin-operated sake tasting inside Echigo-Yuzawa Station, covering breweries from across Niigata. Easy to visit while changing trains.","links":[]},
-  {"id":"hakkaisan","name":"Hakkaisan Brewery","name_ja":"八海醸造","category":"sake","area":"minamiuonuma","search":["八海醸造"],
-   "desc":"Maker of Hakkaisan sake, one of Niigata's best-known brands, in Minamiuonuma at the foot of Mt. Hakkai.","links":[]},
-  {"id":"uonuma-no-sato","name":"Uonuma no Sato (Hakkaisan complex)","name_ja":"魚沼の里","category":"sake","area":"minamiuonuma","search":["魚沼の里"],
-   "desc":"Visitor complex run by Hakkaisan with shops, restaurants, a craft beer brewery and a snow storehouse. About 10 minutes by taxi from Itsukamachi Station.","links":[]},
-  {"id":"aoki-shuzo","name":"Aoki Shuzo","name_ja":"青木酒造","category":"sake","area":"minamiuonuma","search":["青木酒造"],
-   "desc":"One of the oldest breweries in the Minamiuonuma area, founded in 1717.","links":[]},
-  {"id":"takachiyo","name":"Takachiyo Shuzo","name_ja":"高千代酒造","category":"sake","area":"minamiuonuma","search":["高千代酒造"],
-   "desc":"Brewery at the foot of Mt. Makihata, known for dry sake. Brewery tours are not available.","links":[]},
-  {"id":"midorikawa","name":"Midorikawa Shuzo","name_ja":"緑川酒造","category":"sake","area":"uonuma","search":["緑川酒造"],
-   "desc":"Brewery in Uonuma City, known for the Midorikawa brand.","links":[]},
-  {"id":"myoko-shuzo","name":"Myoko Shuzo","name_ja":"妙高酒造","category":"sake","area":"joetsu","search":["妙高酒造"],
-   "desc":"Joetsu brewery making Myokosan sake with water from Mt. Myoko. Brewery visits by prior consultation.","links":[]},
-  {"id":"musashino-shuzo","name":"Musashino Shuzo","name_ja":"武蔵野酒造","category":"sake","area":"joetsu","search":["武蔵野酒造"],
-   "desc":"Brewery in Joetsu's Takada district, about a 10-minute walk from Takada Station.","links":[]},
-  {"id":"maruyama-shuzojo","name":"Maruyama Shuzojo (Setchubai)","name_ja":"丸山酒造場","category":"sake","area":"joetsu","search":["丸山酒造場"],
-   "desc":"Joetsu brewery known for the Setchubai brand. No brewery tours.","links":[]},
-  {"id":"yoshikawa-toji","name":"Yoshikawa Toji no Sato","name_ja":"よしかわ杜氏の郷","category":"sake","area":"joetsu","search":["よしかわ杜氏の郷","よしかわ杜氏"],
-   "desc":"Brewery in Joetsu's Yoshikawa district producing Yoshikawa Toji sake.","links":[]},
-  {"id":"kiminoi","name":"Kiminoi Shuzo","name_ja":"君の井酒造","category":"sake","area":"myoko","search":["君の井酒造"],
-   "desc":"Brewery in Myoko City.","links":[]},
-  {"id":"ayumasamune","name":"Ayumasamune Shuzo","name_ja":"鮎正宗酒造","category":"sake","area":"myoko","search":["鮎正宗酒造"],
-   "desc":"Brewery in Myoko City.","links":[]},
-  {"id":"chiyonohikari","name":"Chiyonohikari Shuzo","name_ja":"千代の光酒造","category":"sake","area":"myoko","search":["千代の光酒造"],
-   "desc":"Brewery in Myoko City.","links":[]},
-
-  {"id":"echigo-yuzawa-station","name":"Echigo-Yuzawa Station","name_ja":"越後湯沢駅","category":"access","area":"yuzawa","search":["越後湯沢"],
-   "desc":"Shinkansen gateway to the Yuzawa ski areas, about 70 minutes from Tokyo Station at the fastest. Ponshukan sake tasting is inside the station.","links":[]},
-  {"id":"echigo-nakazato-station","name":"Echigo-Nakazato Station","name_ja":"越後中里駅","category":"access","area":"yuzawa","search":["越後中里"],
-   "desc":"Joetsu Line station close to the Yuzawa Nakazato ski area.","links":[]},
-  {"id":"urasa-station","name":"Urasa Station","name_ja":"浦佐駅","category":"access","area":"minamiuonuma","search":["浦佐"],
-   "desc":"Joetsu Shinkansen stop in Minamiuonuma.","links":[]},
-  {"id":"muikamachi-station","name":"Muikamachi Station","name_ja":"六日町駅","category":"access","area":"minamiuonuma","search":["六日町"],
-   "desc":"Joetsu Line station in Minamiuonuma. Shuttle buses to some local ski areas depart from here.","links":[]},
-  {"id":"nagaoka-station","name":"Nagaoka Station","name_ja":"長岡駅","category":"access","area":"nagaoka","search":["長岡"],
-   "desc":"Major Joetsu Shinkansen stop, with a Ponshukan sake shop.","links":[]},
-  {"id":"niigata-station","name":"Niigata Station","name_ja":"新潟駅","category":"access","area":"niigata","search":["新潟"],
-   "desc":"Main station of Niigata City and the northern end of the Joetsu Shinkansen. A Ponshukan sake shop is here too.","links":[]},
-  {"id":"niigata-airport","name":"Niigata Airport","name_ja":"新潟空港","category":"access","area":"niigata","search":["新潟空港"],
-   "desc":"Niigata's airport, on the coast near Niigata City.","links":[]},
-  {"id":"joetsumyoko-station","name":"Joetsumyoko Station","name_ja":"上越妙高駅","category":"access","area":"joetsu","search":["上越妙高"],
-   "desc":"Hokuriku Shinkansen stop and the usual starting point for the Myoko area.","links":[]},
-  {"id":"myoko-kogen-station","name":"Myoko-Kogen Station","name_ja":"妙高高原駅","category":"access","area":"myoko","search":["妙高高原"],
-   "desc":"Station on the Echigo Tokimeki Railway (Myoko Haneuma Line) in the Myoko ski area. Buses run from here to Suginohara.","links":[]}
+  {
+    "id": "naeba",
+    "name": "Naeba Ski Resort",
+    "name_ja": "苗場スキー場",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "苗場スキー場",
+      "苗場"
+    ],
+    "desc": "One of Japan's best-known ski resorts, in the Yuzawa area. A route bus runs from Echigo-Yuzawa Station (about 45 minutes).",
+    "links": []
+  },
+  {
+    "id": "kagura",
+    "name": "Kagura Ski Resort",
+    "name_ja": "かぐらスキー場",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "かぐらスキー場",
+      "かぐら"
+    ],
+    "desc": "High-elevation ski area in the Yuzawa area, linked to Naeba by the long Dragondola gondola.",
+    "links": []
+  },
+  {
+    "id": "gala-yuzawa",
+    "name": "GALA Yuzawa Snow Resort",
+    "name_ja": "GALA湯沢スキー場",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "GALA湯沢",
+      "ガーラ湯沢"
+    ],
+    "desc": "Ski resort with a Shinkansen station at its base in winter, which makes it an easy day trip from Tokyo. Check the seasonal train schedule.",
+    "links": []
+  },
+  {
+    "id": "kandatsu",
+    "name": "Kandatsu Snow Resort",
+    "name_ja": "神立スノーリゾート",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "神立スノーリゾート",
+      "神立スキー"
+    ],
+    "desc": "Ski area on the southeastern slope of Mt. Iiji, about 3 km from Echigo-Yuzawa Station.",
+    "links": [],
+    "manual": [
+      36.91131,
+      138.81278
+    ]
+  },
+  {
+    "id": "yuzawa-nakazato",
+    "name": "Yuzawa Nakazato Snow Resort",
+    "name_ja": "湯沢中里スノーリゾート",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "湯沢中里",
+      "中里スノー"
+    ],
+    "desc": "Ski area near Echigo-Nakazato Station on the Joetsu Line.",
+    "links": []
+  },
+  {
+    "id": "iwappara",
+    "name": "Iwappara Ski Resort",
+    "name_ja": "岩原スキー場",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "岩原スキー場",
+      "岩原"
+    ],
+    "desc": "Ski area in the Yuzawa area.",
+    "links": []
+  },
+  {
+    "id": "yuzawa-kogen",
+    "name": "Yuzawa Kogen Ski Area",
+    "name_ja": "湯沢高原スキー場",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "湯沢高原"
+    ],
+    "desc": "Ski area reached by a ropeway close to Echigo-Yuzawa Station.",
+    "links": []
+  },
+  {
+    "id": "joetsu-kokusai",
+    "name": "Joetsu Kokusai Ski Resort",
+    "name_ja": "上越国際スキー場",
+    "category": "ski",
+    "area": "yuzawa",
+    "search": [
+      "上越国際"
+    ],
+    "desc": "Ski resort in the Yuzawa area.",
+    "links": []
+  },
+  {
+    "id": "ishiuchi-maruyama",
+    "name": "Ishiuchi Maruyama Ski Resort",
+    "name_ja": "石打丸山スキー場",
+    "category": "ski",
+    "area": "minamiuonuma",
+    "search": [
+      "石打丸山"
+    ],
+    "desc": "Ski resort in Minamiuonuma with views over the city, about 3 km from the Shiozawa-Ishiuchi interchange.",
+    "links": []
+  },
+  {
+    "id": "maiko",
+    "name": "Maiko Snow Resort",
+    "name_ja": "舞子スノーリゾート",
+    "category": "ski",
+    "area": "minamiuonuma",
+    "search": [
+      "舞子スノーリゾート",
+      "舞子スキー"
+    ],
+    "desc": "Ski resort about 1 km from the Shiozawa-Ishiuchi interchange, one of the easiest to reach by car in the area.",
+    "links": []
+  },
+  {
+    "id": "muika",
+    "name": "Muika Snow Resort",
+    "name_ja": "ムイカスノーリゾート",
+    "category": "ski",
+    "area": "minamiuonuma",
+    "search": [
+      "ムイカスノー",
+      "ムイカ"
+    ],
+    "desc": "Ski resort in Minamiuonuma. A shuttle bus runs from Muikamachi Station (about 10 minutes).",
+    "links": []
+  },
+  {
+    "id": "muikamachi-hakkaisan",
+    "name": "Muikamachi Hakkaisan Ski Resort",
+    "name_ja": "六日町八海山スキー場",
+    "category": "ski",
+    "area": "minamiuonuma",
+    "search": [
+      "六日町八海山"
+    ],
+    "desc": "Ski resort on the slopes of Mt. Hakkai in Minamiuonuma.",
+    "links": [],
+    "manual": [
+      37.10804,
+      138.97788
+    ]
+  },
+  {
+    "id": "akakura-kanko",
+    "name": "Akakura Kanko Resort Ski Area",
+    "name_ja": "赤倉観光リゾートスキー場",
+    "category": "ski",
+    "area": "myoko",
+    "search": [
+      "赤倉観光リゾート",
+      "赤倉観光"
+    ],
+    "desc": "Large ski area in Myoko Kogen next to the Akakura Kanko Hotel, with a top elevation of about 1,500 m and runs of up to 4.5 km.",
+    "links": []
+  },
+  {
+    "id": "akakura-onsen",
+    "name": "Akakura Onsen Ski Area",
+    "name_ja": "赤倉温泉スキー場",
+    "category": "ski",
+    "area": "myoko",
+    "search": [
+      "赤倉温泉スキー場"
+    ],
+    "desc": "Ski area at the foot of Mt. Myoko, about 8 minutes by car from the Myoko-Kogen interchange and close to the Akakura hot spring village.",
+    "links": []
+  },
+  {
+    "id": "suginohara",
+    "name": "Myoko Suginohara Ski Resort",
+    "name_ja": "妙高杉ノ原スキー場",
+    "category": "ski",
+    "area": "myoko",
+    "search": [
+      "妙高杉ノ原",
+      "杉ノ原スキー"
+    ],
+    "desc": "Long, wide ski area with runs of up to about 8.5 km and a vertical drop of roughly 1,100 m. Buses run from Myoko-Kogen Station (about 25 minutes).",
+    "links": []
+  },
+  {
+    "id": "ikenotaira",
+    "name": "Ikenotaira Onsen Alpen Blick Ski Area",
+    "name_ja": "池の平温泉アルペンブリックスキー場",
+    "category": "ski",
+    "area": "myoko",
+    "search": [
+      "アルペンブリック",
+      "池の平温泉"
+    ],
+    "desc": "Wide, open slope at the foot of Mt. Myoko.",
+    "links": []
+  },
+  {
+    "id": "lotte-arai",
+    "name": "Lotte Arai Resort",
+    "name_ja": "ロッテアライリゾート",
+    "category": "ski",
+    "area": "myoko",
+    "search": [
+      "ロッテアライ"
+    ],
+    "desc": "Resort and ski area in Myoko.",
+    "links": [],
+    "manual": [
+      36.99062,
+      138.18128
+    ]
+  },
+  {
+    "id": "shirataki",
+    "name": "Shirataki Brewery",
+    "name_ja": "白瀧酒造",
+    "category": "sake",
+    "area": "yuzawa",
+    "search": [
+      "白瀧酒造"
+    ],
+    "desc": "Yuzawa brewery known for the Jozen Mizu no Gotoshi and Minatoya Tosuke brands. Winter brewery tours are offered by reservation; check the brewery's site.",
+    "links": []
+  },
+  {
+    "id": "ponshukan",
+    "name": "Ponshukan Sake Museum (Echigo-Yuzawa Station)",
+    "name_ja": "ぽんしゅ館 越後湯沢驛店",
+    "category": "sake",
+    "area": "yuzawa",
+    "search": [
+      "ぽんしゅ館"
+    ],
+    "coords_from": "echigo-yuzawa-station",
+    "desc": "Coin-operated sake tasting inside Echigo-Yuzawa Station, covering breweries from across Niigata. Easy to visit while changing trains.",
+    "links": []
+  },
+  {
+    "id": "hakkaisan",
+    "name": "Hakkaisan Brewery",
+    "name_ja": "八海醸造",
+    "category": "sake",
+    "area": "minamiuonuma",
+    "search": [
+      "八海醸造"
+    ],
+    "desc": "Maker of Hakkaisan sake, one of Niigata's best-known brands, in Minamiuonuma at the foot of Mt. Hakkai.",
+    "links": []
+  },
+  {
+    "id": "uonuma-no-sato",
+    "name": "Uonuma no Sato (Hakkaisan complex)",
+    "name_ja": "魚沼の里",
+    "category": "sake",
+    "area": "minamiuonuma",
+    "search": [
+      "魚沼の里"
+    ],
+    "desc": "Visitor complex run by Hakkaisan with shops, restaurants, a craft beer brewery and a snow storehouse. About 10 minutes by taxi from Itsukamachi Station.",
+    "links": []
+  },
+  {
+    "id": "aoki-shuzo",
+    "name": "Aoki Shuzo",
+    "name_ja": "青木酒造",
+    "category": "sake",
+    "area": "minamiuonuma",
+    "search": [
+      "青木酒造"
+    ],
+    "desc": "One of the oldest breweries in the Minamiuonuma area, founded in 1717.",
+    "links": [],
+    "manual": [
+      37.0403,
+      138.85038
+    ]
+  },
+  {
+    "id": "takachiyo",
+    "name": "Takachiyo Shuzo",
+    "name_ja": "高千代酒造",
+    "category": "sake",
+    "area": "minamiuonuma",
+    "search": [
+      "高千代酒造"
+    ],
+    "desc": "Brewery at the foot of Mt. Makihata, known for dry sake. Brewery tours are not available.",
+    "links": [],
+    "manual": [
+      37.01624,
+      138.87845
+    ]
+  },
+  {
+    "id": "midorikawa",
+    "name": "Midorikawa Shuzo",
+    "name_ja": "緑川酒造",
+    "category": "sake",
+    "area": "uonuma",
+    "search": [
+      "緑川酒造"
+    ],
+    "desc": "Brewery in Uonuma City, known for the Midorikawa brand.",
+    "links": [],
+    "manual": [
+      37.20977,
+      138.95385
+    ]
+  },
+  {
+    "id": "myoko-shuzo",
+    "name": "Myoko Shuzo",
+    "name_ja": "妙高酒造",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "妙高酒造"
+    ],
+    "desc": "Joetsu brewery making Myokosan sake with water from Mt. Myoko. Brewery visits by prior consultation.",
+    "links": [],
+    "manual": [
+      37.10078,
+      138.25111
+    ]
+  },
+  {
+    "id": "musashino-shuzo",
+    "name": "Musashino Shuzo",
+    "name_ja": "武蔵野酒造",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "武蔵野酒造"
+    ],
+    "desc": "Brewery in Joetsu's Takada district, about a 10-minute walk from Takada Station.",
+    "links": [],
+    "manual": [
+      37.11701,
+      138.24995
+    ]
+  },
+  {
+    "id": "maruyama-shuzojo",
+    "name": "Maruyama Shuzojo (Setchubai)",
+    "name_ja": "丸山酒造場",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "丸山酒造場"
+    ],
+    "desc": "Joetsu brewery known for the Setchubai brand. No brewery tours.",
+    "links": [],
+    "manual": [
+      37.14383,
+      138.36161
+    ]
+  },
+  {
+    "id": "yoshikawa-toji",
+    "name": "Yoshikawa Toji no Sato",
+    "name_ja": "よしかわ杜氏の郷",
+    "category": "sake",
+    "area": "joetsu",
+    "search": [
+      "よしかわ杜氏の郷",
+      "よしかわ杜氏"
+    ],
+    "desc": "Brewery in Joetsu's Yoshikawa district producing Yoshikawa Toji sake.",
+    "links": [],
+    "manual": [
+      37.24192,
+      138.37698
+    ]
+  },
+  {
+    "id": "kiminoi",
+    "name": "Kiminoi Shuzo",
+    "name_ja": "君の井酒造",
+    "category": "sake",
+    "area": "myoko",
+    "search": [
+      "君の井酒造"
+    ],
+    "desc": "Brewery in Myoko City.",
+    "links": [],
+    "manual": [
+      37.02907,
+      138.25048
+    ]
+  },
+  {
+    "id": "ayumasamune",
+    "name": "Ayumasamune Shuzo",
+    "name_ja": "鮎正宗酒造",
+    "category": "sake",
+    "area": "myoko",
+    "search": [
+      "鮎正宗酒造"
+    ],
+    "desc": "Brewery in Myoko City.",
+    "links": [],
+    "manual": [
+      36.95506,
+      138.27353
+    ]
+  },
+  {
+    "id": "chiyonohikari",
+    "name": "Chiyonohikari Shuzo",
+    "name_ja": "千代の光酒造",
+    "category": "sake",
+    "area": "myoko",
+    "search": [
+      "千代の光酒造"
+    ],
+    "desc": "Brewery in Myoko City.",
+    "links": []
+  },
+  {
+    "id": "echigo-yuzawa-station",
+    "name": "Echigo-Yuzawa Station",
+    "name_ja": "越後湯沢駅",
+    "category": "access",
+    "area": "yuzawa",
+    "search": [
+      "越後湯沢"
+    ],
+    "desc": "Shinkansen gateway to the Yuzawa ski areas, about 70 minutes from Tokyo Station at the fastest. Ponshukan sake tasting is inside the station.",
+    "links": []
+  },
+  {
+    "id": "echigo-nakazato-station",
+    "name": "Echigo-Nakazato Station",
+    "name_ja": "越後中里駅",
+    "category": "access",
+    "area": "yuzawa",
+    "search": [
+      "越後中里"
+    ],
+    "desc": "Joetsu Line station close to the Yuzawa Nakazato ski area.",
+    "links": []
+  },
+  {
+    "id": "urasa-station",
+    "name": "Urasa Station",
+    "name_ja": "浦佐駅",
+    "category": "access",
+    "area": "minamiuonuma",
+    "search": [
+      "浦佐"
+    ],
+    "desc": "Joetsu Shinkansen stop in Minamiuonuma.",
+    "links": []
+  },
+  {
+    "id": "muikamachi-station",
+    "name": "Muikamachi Station",
+    "name_ja": "六日町駅",
+    "category": "access",
+    "area": "minamiuonuma",
+    "search": [
+      "六日町"
+    ],
+    "desc": "Joetsu Line station in Minamiuonuma. Shuttle buses to some local ski areas depart from here.",
+    "links": []
+  },
+  {
+    "id": "nagaoka-station",
+    "name": "Nagaoka Station",
+    "name_ja": "長岡駅",
+    "category": "access",
+    "area": "nagaoka",
+    "search": [
+      "長岡"
+    ],
+    "desc": "Major Joetsu Shinkansen stop, with a Ponshukan sake shop.",
+    "links": []
+  },
+  {
+    "id": "niigata-station",
+    "name": "Niigata Station",
+    "name_ja": "新潟駅",
+    "category": "access",
+    "area": "niigata",
+    "search": [
+      "新潟"
+    ],
+    "desc": "Main station of Niigata City and the northern end of the Joetsu Shinkansen. A Ponshukan sake shop is here too.",
+    "links": []
+  },
+  {
+    "id": "niigata-airport",
+    "name": "Niigata Airport",
+    "name_ja": "新潟空港",
+    "category": "access",
+    "area": "niigata",
+    "search": [
+      "新潟空港"
+    ],
+    "desc": "Niigata's airport, on the coast near Niigata City.",
+    "links": []
+  },
+  {
+    "id": "joetsumyoko-station",
+    "name": "Joetsumyoko Station",
+    "name_ja": "上越妙高駅",
+    "category": "access",
+    "area": "joetsu",
+    "search": [
+      "上越妙高"
+    ],
+    "desc": "Hokuriku Shinkansen stop and the usual starting point for the Myoko area.",
+    "links": []
+  },
+  {
+    "id": "myoko-kogen-station",
+    "name": "Myoko-Kogen Station",
+    "name_ja": "妙高高原駅",
+    "category": "access",
+    "area": "myoko",
+    "search": [
+      "妙高高原"
+    ],
+    "desc": "Station on the Echigo Tokimeki Railway (Myoko Haneuma Line) in the Myoko ski area. Buses run from here to Suginohara.",
+    "links": []
+  }
 ]
