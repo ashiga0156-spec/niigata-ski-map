@@ -1520,7 +1520,11 @@
       "宮尾酒造"
     ],
     "desc": "Sake brewery in Murakami, Niigata (brand: 〆張鶴).",
-    "links": []
+    "links": [],
+    "manual": [
+      38.27019,
+      139.4863
+    ]
   },
   {
     "id": "taiyo-shuzo",
@@ -1556,7 +1560,11 @@
       "菊水酒造"
     ],
     "desc": "Sake brewery in Shibata, Niigata (brand: 菊水).",
-    "links": []
+    "links": [],
+    "manual": [
+      37.9605,
+      139.35424
+    ]
   },
   {
     "id": "dhc-shuzo",
@@ -1568,7 +1576,11 @@
       "DHC酒造"
     ],
     "desc": "Sake brewery in Niigata City (Kita-ku), Niigata (brand: 嘉山).",
-    "links": []
+    "links": [],
+    "manual": [
+      37.91347,
+      139.21891
+    ]
   },
   {
     "id": "imayotsukasa",
@@ -1604,7 +1616,11 @@
       "村祐酒造"
     ],
     "desc": "Sake brewery in Niigata City (Akiha-ku), Niigata (brand: 花越路).",
-    "links": []
+    "links": [],
+    "manual": [
+      37.7484,
+      139.09306
+    ]
   },
   {
     "id": "minenohakubai",
@@ -1652,7 +1668,11 @@
       "近藤酒造"
     ],
     "desc": "Sake brewery in Gosen, Niigata (brand: 越乃鹿六).",
-    "links": []
+    "links": [],
+    "manual": [
+      37.73816,
+      139.18122
+    ]
   },
   {
     "id": "kinshihai-shuzo",
@@ -1664,7 +1684,11 @@
       "金鵄盃"
     ],
     "desc": "Sake brewery in Gosen, Niigata (brand: 越後杜氏).",
-    "links": []
+    "links": [],
+    "manual": [
+      37.69065,
+      139.17591
+    ]
   },
   {
     "id": "yahiko-shuzo",
@@ -1676,7 +1700,11 @@
       "弥彦酒造"
     ],
     "desc": "Sake brewery in Yahiko, Niigata (brand: 彌彦).",
-    "links": []
+    "links": [],
+    "manual": [
+      37.71345,
+      138.83176
+    ]
   },
   {
     "id": "kirinzan-shuzo",
@@ -1712,7 +1740,11 @@
       "逸見酒造"
     ],
     "desc": "Sake brewery in Sado, Niigata (brand: 真稜).",
-    "links": []
+    "links": [],
+    "manual": [
+      37.97377,
+      138.34817
+    ]
   },
   {
     "id": "tenryohai-shuzo",
@@ -1736,7 +1768,11 @@
       "北雪酒造"
     ],
     "desc": "Sake brewery in Sado, Niigata (brand: 北雪).",
-    "links": []
+    "links": [],
+    "manual": [
+      37.87084,
+      138.41374
+    ]
   },
   {
     "id": "kato-shuzoten",
@@ -1748,7 +1784,11 @@
       "加藤酒造店"
     ],
     "desc": "Sake brewery in Sado, Niigata (brand: 金鶴).",
-    "links": []
+    "links": [],
+    "manual": [
+      38.0077,
+      138.29016
+    ]
   },
   {
     "id": "budo-snow-resort",
