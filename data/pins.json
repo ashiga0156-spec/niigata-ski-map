@@ -1133,14 +1133,14 @@
     "name": "Sekihara Shuzo",
     "name_ja": "関原酒造",
     "category": "sake",
-    "lat": 37.45332,
+    "lat": 37.4534,
     "lng": 138.77501,
     "desc": "Sake brewery in Nagaoka, Niigata.",
     "links": [],
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "No tours offered (per the brewers association)."
   },
   {
     "id": "naspa",
