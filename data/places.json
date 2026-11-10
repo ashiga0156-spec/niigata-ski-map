@@ -894,8 +894,8 @@
       37.21963,
       138.31313
     ],
-    "visit": "A",
-    "visit_note": "Seasonal tour (mid-Nov to Feb, afternoons), reservation required; small groups."
+    "visit": "C",
+    "visit_note": "Tour by advance reservation (reported mid-Nov to Feb); tasting not confirmed. Inquire first."
   },
   {
     "id": "niigata-daiichi-shuzo",
@@ -948,8 +948,8 @@
       37.25491,
       138.39998
     ],
-    "visit": "A",
-    "visit_note": "Small-group tour (6-8 people) by reservation; tasting not confirmed."
+    "visit": "C",
+    "visit_note": "Small-group tour by advance reservation; tasting not confirmed. Inquire first."
   },
   {
     "id": "koyama-shuzoten",
@@ -1146,8 +1146,8 @@
       37.49978,
       138.7826
     ],
-    "visit": "A",
-    "visit_note": "Seasonal tour (mid-Jan to mid-Mar), reservation required; tasting not confirmed."
+    "visit": "C",
+    "visit_note": "Tour by advance reservation; tasting not confirmed. Inquire first."
   },
   {
     "id": "takahashi-shuzo",
@@ -1737,8 +1737,8 @@
       37.7484,
       139.09306
     ],
-    "visit": "A",
-    "visit_note": "Tour by reservation (tasting not confirmed)."
+    "visit": "C",
+    "visit_note": "No tours offered (per brewers association and tourism listings). Inquire first."
   },
   {
     "id": "minenohakubai",
@@ -1797,8 +1797,8 @@
       37.73816,
       139.18122
     ],
-    "visit": "A",
-    "visit_note": "Seasonal tour (Oct-Mar, weekdays), reservation required; tasting not confirmed."
+    "visit": "C",
+    "visit_note": "No tours listed by the brewers association. Inquire first."
   },
   {
     "id": "kinshihai-shuzo",
