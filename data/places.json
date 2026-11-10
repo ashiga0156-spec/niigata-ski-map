@@ -511,7 +511,7 @@
       138.25111
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Weekday tours; contact the brewery in advance. Inquire first."
   },
   {
     "id": "musashino-shuzo",
@@ -547,7 +547,7 @@
       138.36161
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "yoshikawa-toji",
@@ -616,7 +616,7 @@
     "desc": "Brewery in Myoko City.",
     "links": [],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Tour in Jul-Aug by reservation (2 days ahead); tasting not confirmed. Inquire first."
   },
   {
     "id": "echigo-yuzawa-station",
@@ -841,7 +841,7 @@
       138.1896
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "joetsu-shuzo",
@@ -895,7 +895,7 @@
       138.31313
     ],
     "visit": "C",
-    "visit_note": "Tour by advance reservation (reported mid-Nov to Feb); tasting not confirmed. Inquire first."
+    "visit_note": "Tour by advance reservation (mid-Nov to Mar); tasting not confirmed. Inquire first."
   },
   {
     "id": "niigata-daiichi-shuzo",
@@ -913,7 +913,7 @@
       138.41412
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "kubiki-shuzo",
@@ -967,7 +967,7 @@
       138.32556
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "asahi-shuzo",
@@ -1021,7 +1021,7 @@
       138.97949
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "kawachu-shuzo",
@@ -1039,7 +1039,7 @@
       138.7846
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "hakuro-shuzo",
@@ -1147,7 +1147,7 @@
       138.7826
     ],
     "visit": "C",
-    "visit_note": "Tour by advance reservation; tasting not confirmed. Inquire first."
+    "visit_note": "Tour by advance reservation (mid-Jan to mid-Mar, 1 week ahead); tasting not confirmed. Inquire first."
   },
   {
     "id": "takahashi-shuzo",
@@ -1183,7 +1183,7 @@
       138.91671
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "hozan-shuzo",
@@ -1219,7 +1219,7 @@
       138.77395
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Tours by prior arrangement only. Inquire first."
   },
   {
     "id": "naeba-shuzo",
@@ -1309,7 +1309,7 @@
       139.06415
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "yukitsubaki-shuzo",
@@ -1327,7 +1327,7 @@
       139.05679
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "fukugao-shuzo",
@@ -1363,7 +1363,7 @@
       138.83455
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "sekihara-shuzo",
@@ -1752,7 +1752,7 @@
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata (brand: 峰乃白梅).",
     "links": [],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "echigo-tsurukame",
@@ -1766,7 +1766,7 @@
     "desc": "Sake brewery in Niigata City (Nishikan-ku), Niigata (brand: 越後鶴亀).",
     "links": [],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "sasaiwai-shuzo",
@@ -1816,7 +1816,7 @@
       139.17591
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "yahiko-shuzo",
@@ -1834,7 +1834,7 @@
       138.83176
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "kirinzan-shuzo",
@@ -1880,7 +1880,7 @@
       138.34817
     ],
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Tour from Apr to mid-Sep by reservation; tasting not confirmed. Inquire first."
   },
   {
     "id": "tenryohai-shuzo",

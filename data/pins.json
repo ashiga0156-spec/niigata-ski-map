@@ -415,7 +415,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Weekday tours; contact the brewery in advance. Inquire first."
   },
   {
     "id": "musashino-shuzo",
@@ -443,7 +443,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "yoshikawa-toji",
@@ -499,7 +499,7 @@
     "verified": true,
     "source": "osm:nominatim/1219927274",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Tour in Jul-Aug by reservation (2 days ahead); tasting not confirmed. Inquire first."
   },
   {
     "id": "echigo-yuzawa-station",
@@ -720,7 +720,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "joetsu-shuzo",
@@ -762,7 +762,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Tour by advance reservation (reported mid-Nov to Feb); tasting not confirmed. Inquire first."
+    "visit_note": "Tour by advance reservation (mid-Nov to Mar); tasting not confirmed. Inquire first."
   },
   {
     "id": "niigata-daiichi-shuzo",
@@ -776,7 +776,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "kubiki-shuzo",
@@ -818,7 +818,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "asahi-shuzo",
@@ -860,7 +860,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "kawachu-shuzo",
@@ -874,7 +874,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "hakuro-shuzo",
@@ -958,7 +958,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Tour by advance reservation; tasting not confirmed. Inquire first."
+    "visit_note": "Tour by advance reservation (mid-Jan to mid-Mar, 1 week ahead); tasting not confirmed. Inquire first."
   },
   {
     "id": "takahashi-shuzo",
@@ -986,7 +986,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "hozan-shuzo",
@@ -1014,7 +1014,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Tours by prior arrangement only. Inquire first."
   },
   {
     "id": "naeba-shuzo",
@@ -1084,7 +1084,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "yukitsubaki-shuzo",
@@ -1098,7 +1098,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "fukugao-shuzo",
@@ -1126,7 +1126,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "sekihara-shuzo",
@@ -1446,7 +1446,7 @@
     "verified": false,
     "source": "osm:nominatim/14311561068",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "echigo-tsurukame",
@@ -1460,7 +1460,7 @@
     "verified": true,
     "source": "osm:nominatim/1567847455",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "sasaiwai-shuzo",
@@ -1502,7 +1502,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "yahiko-shuzo",
@@ -1516,7 +1516,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Not on the brewers association's list of tour-accepting breweries. Inquire first."
   },
   {
     "id": "kirinzan-shuzo",
@@ -1558,7 +1558,7 @@
     "verified": true,
     "source": "manual",
     "visit": "C",
-    "visit_note": "Visitor info not confirmed. Inquire with the brewery first."
+    "visit_note": "Tour from Apr to mid-Sep by reservation; tasting not confirmed. Inquire first."
   },
   {
     "id": "tenryohai-shuzo",
